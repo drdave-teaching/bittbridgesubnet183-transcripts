@@ -1,0 +1,100 @@
+1
+00:00:01,460 --> 00:00:07,960
+Hi, we are almost there as a next step. We need to go to the website. I see I'll express
+
+2
+00:00:08,700 --> 00:00:14,500
+This is the website that provides information about energy demand in the new England
+
+3
+00:00:14,500 --> 00:00:16,960
+And we need to create the account here
+
+4
+00:00:16,960 --> 00:00:22,000
+You need to sign up using your email and create the password since I already have
+
+5
+00:00:22,560 --> 00:00:24,560
+this account information
+
+6
+00:00:25,560 --> 00:00:33,130
+We need to store this information inside our system. Let me show you. I will clear these things up
+
+7
+00:00:38,120 --> 00:00:41,640
+Okay, yeah, we need to enter this comment
+
+8
+00:00:42,200 --> 00:00:44,200
+nano.env.example
+
+9
+00:00:46,400 --> 00:00:47,480
+Okay
+
+10
+00:00:47,480 --> 00:00:51,880
+So there is a specific file called .env.example
+
+11
+00:00:52,720 --> 00:00:59,640
+Where we need to store our credentials that we just created. So we need to store our email and password
+
+12
+00:00:59,760 --> 00:01:01,760
+so my email is
+
+13
+00:01:13,850 --> 00:01:16,730
+Please don't spam me and here is my password
+
+14
+00:01:16,730 --> 00:01:22,570
+I will not show you my password, but let's assume that I entered here some password, right?
+
+15
+00:01:23,290 --> 00:01:25,040
+password from my account
+
+16
+00:01:25,040 --> 00:01:30,880
+What is next? When I did this, right? I entered my password. I need to click control plus X
+
+17
+00:01:31,600 --> 00:01:35,360
+control X
+
+18
+00:01:36,240 --> 00:01:38,240
+I need to press Y
+
+19
+00:01:38,720 --> 00:01:42,120
+Yes, and here I need to rename the file
+
+20
+00:01:42,480 --> 00:01:49,200
+and I will just delete the .example and I will leave .env like here and I need to
+
+21
+00:01:50,920 --> 00:01:57,040
+To press enter and one more time I need to press Y. Yes
+
+22
+00:01:57,760 --> 00:01:58,760
+Okay
+
+23
+00:01:58,760 --> 00:02:00,760
+That's great
+
+24
+00:02:00,760 --> 00:02:04,520
+Okay, I will take a pause here and we will go to the final step of really
+
+25
+00:02:04,520 --> 00:02:09,800
+Making the minor run on the decentralized network. How cool is that?
+

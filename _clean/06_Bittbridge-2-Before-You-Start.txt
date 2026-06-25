@@ -1,0 +1,9 @@
+For your setup, the guide is breakdown into the four main phases. We can use these links to go and see. All the guides, they are under the Docs and Guide repo. Here is the four main phases that you need to accomplish to be able to run the miner on the decentralized AI network.
+
+Let's start with the first one before you start. Here is some key concept information of what is what really. We assume that you understand what is GitHub repository and as well as that you do have a Google Cloud Platform account with the activated free trial of $300. The key concepts here.
+
+What is the virtual machine? The virtual machine itself looks at this as the remote laptop or remote PC. That is based specifically on the Google Cloud and it's run 24-7. It doesn't really care if you switch it on or switch it off if you are using it or no.
+
+You can set up scripts and work on that and it will work without your interactions. What is the virtual environment? The virtual environment itself is the specific environment for your project or your Python scripts that is used that is used specific dependencies inside only this virtual environment without connection with the global environment of your laptop. Look at this as the specific folder inside your project and inside this folder we keep all the necessary libraries and variables inside this virtual environment.
+
+What is minor and what is validator? It was discussed on the previous step. I'll pause here.

@@ -1,0 +1,480 @@
+1
+00:00:01,230 --> 00:00:06,590
+Okay people, we are almost there. I know this is the this is very long even for me
+
+2
+00:00:06,590 --> 00:00:10,910
+I'm recording it right, but I still I don't know. I won't open the tiktok and scroll
+
+3
+00:00:11,190 --> 00:00:17,990
+So it's pretty long though, but okay overall after all these lectures and fancy stuff
+
+4
+00:00:17,990 --> 00:00:23,130
+You can still ask me. What am what am I even doing here? Anyway?
+
+5
+00:00:23,790 --> 00:00:29,000
+What's going on? So and I will try to answer this question right now. So
+
+6
+00:00:29,680 --> 00:00:31,760
+Look at this as the experiential
+
+7
+00:00:32,640 --> 00:00:35,590
+experimental learning
+
+8
+00:00:35,590 --> 00:00:43,270
+During your final project you will learn how to use Google Cloud platform the Linux terminal
+
+9
+00:00:45,070 --> 00:00:46,150
+subnets
+
+10
+00:00:46,150 --> 00:00:48,380
+So what is there?
+
+11
+00:00:49,380 --> 00:00:56,270
+How the data flows how the machine learning models really deployed into the production
+
+12
+00:00:57,270 --> 00:01:02,430
+You will work on building and iteratively improving your models
+
+13
+00:01:03,190 --> 00:01:06,950
+Because to make the good model with the good
+
+14
+00:01:08,190 --> 00:01:17,070
+With a yeah with a good performance in the production from the first attempt. It's pretty tough because usually on the
+
+15
+00:01:18,720 --> 00:01:20,720
+in the enterprise
+
+16
+00:01:20,840 --> 00:01:22,800
+data science flow
+
+17
+00:01:22,800 --> 00:01:30,880
+There is some steps to test your model in production and see the real-life metrics not only the kind of the synthetic data on
+
+18
+00:01:32,320 --> 00:01:34,320
+static training data sets
+
+19
+00:01:34,560 --> 00:01:41,840
+So and you yeah, you will deploy model and take a look on the model using our live leaderboards
+
+20
+00:01:43,530 --> 00:01:45,210
+as well as
+
+21
+00:01:45,210 --> 00:01:51,720
+Yeah, you will have hands-on experience with cloud as I mentioned and live AI system
+
+22
+00:01:52,960 --> 00:01:58,670
+Okay, so yeah here how it works behind the scenes
+
+23
+00:02:00,600 --> 00:02:06,440
+You need to train you will mimic the minor behavior in other words data scientist
+
+24
+00:02:07,960 --> 00:02:11,240
+Behavior, but you will not only be the data scientist
+
+25
+00:02:11,240 --> 00:02:16,880
+You will also be the MLOps engineer and the data engineer in the very end
+
+26
+00:02:17,040 --> 00:02:19,600
+You will track your model how it perform
+
+27
+00:02:20,200 --> 00:02:23,880
+what is what model tracks good what model tracks bad and
+
+28
+00:02:25,120 --> 00:02:27,150
+So yeah, this is why
+
+29
+00:02:27,230 --> 00:02:30,030
+we look on this opportunity as the
+
+30
+00:02:30,780 --> 00:02:37,700
+very huge advantage of yours because you are not only you will not only touch all these tools
+
+31
+00:02:38,580 --> 00:02:40,500
+but as well as you will
+
+32
+00:02:40,500 --> 00:02:45,240
+Understand how to use it into the production because prior to that you were working with a static
+
+33
+00:02:45,680 --> 00:02:51,040
+call-up with a stress with a static training and validation data with the
+
+34
+00:02:52,160 --> 00:02:53,520
+static and
+
+35
+00:02:53,520 --> 00:03:00,640
+Building stone models and their performance. Well now you have an opportunity to take a look how it works in the real world
+
+36
+00:03:01,160 --> 00:03:05,680
+So our problem statement what we're even trying to do we trying to
+
+37
+00:03:06,840 --> 00:03:13,820
+Predict let me show you on the I will pull the website screw this presentation. I will pull the website
+
+38
+00:03:14,060 --> 00:03:18,380
+So what's going on here this example, right? We're trying to predict the
+
+39
+00:03:19,100 --> 00:03:24,340
+Energy demand in the New England including connect you could Massachusetts and other places
+
+40
+00:03:26,770 --> 00:03:36,480
+Yeah, we have as an input we have them let me let me show you give me a second
+
+41
+00:03:37,140 --> 00:03:44,980
+So this is our database. This is the core where the all the data leaves
+
+42
+00:03:45,140 --> 00:03:48,820
+So you have we have here training data
+
+43
+00:03:49,860 --> 00:03:56,580
+With specific format that miners are used to create a training data set for you
+
+44
+00:03:56,660 --> 00:04:03,100
+It's had the timestamp the total load in the specific time and all the weather data right here
+
+45
+00:04:03,620 --> 00:04:07,380
+So these for example 9 now it's 9
+
+46
+00:04:08,260 --> 00:04:14,580
+28 p.m. And this data is the most recent actual data that was
+
+47
+00:04:15,100 --> 00:04:20,980
+It's uploading here automatically using the IPI of the ICO
+
+48
+00:04:21,620 --> 00:04:23,620
+New England of the
+
+49
+00:04:24,820 --> 00:04:25,900
+Energy
+
+50
+00:04:25,900 --> 00:04:27,980
+energy load data
+
+51
+00:04:27,980 --> 00:04:32,300
+So and it's got data engineered into the specific format
+
+52
+00:04:33,200 --> 00:04:40,440
+Second thing is the test data set this data set is in future. It lives in future all this weather information
+
+53
+00:04:40,440 --> 00:04:43,120
+It's forecasted. So is the forecasted
+
+54
+00:04:44,120 --> 00:04:47,040
+Weather information that we are pulling from
+
+55
+00:04:49,920 --> 00:04:52,540
+Iowa yeah, I own environmental
+
+56
+00:04:53,560 --> 00:04:57,680
+Data government platform. So this platform allows us to pull
+
+57
+00:04:58,840 --> 00:05:00,840
+government ready
+
+58
+00:05:01,920 --> 00:05:04,590
+Weather forecast
+
+59
+00:05:04,630 --> 00:05:10,190
+Okay. So yeah our I think it should be now pretty clear. What is our training data?
+
+60
+00:05:10,270 --> 00:05:15,230
+It's the data from the past and our test data when your minor is deployed in production
+
+61
+00:05:15,950 --> 00:05:22,590
+Minor receives minor receives rows from the test data from the future to make a prediction
+
+62
+00:05:22,590 --> 00:05:26,710
+But if you using the leg features, right the leg features are looking in the past
+
+63
+00:05:27,270 --> 00:05:29,270
+They will still use the
+
+64
+00:05:29,870 --> 00:05:34,150
+Past total demand from the training data set that are in the past
+
+65
+00:05:36,210 --> 00:05:38,210
+Okay
+
+66
+00:05:38,790 --> 00:05:41,430
+Speaking about the leaderboard itself
+
+67
+00:05:43,050 --> 00:05:49,890
+We have here several options 1 hour 6 hours 24 hours 7 days and 30 days. I
+
+68
+00:05:50,770 --> 00:05:57,170
+Think the most representative one is the 24 hours here on the right. You can see the accumulated
+
+69
+00:05:58,050 --> 00:05:59,090
+blockchain
+
+70
+00:05:59,090 --> 00:06:05,490
+Scores that your minor received. So for example minor number 6 for the last 24 hours
+
+71
+00:06:05,490 --> 00:06:08,770
+It has the oh, I'm minor number 4
+
+72
+00:06:08,770 --> 00:06:11,970
+so I'm pretty proud with my num with my minor right now and
+
+73
+00:06:13,770 --> 00:06:15,960
+For the last 24 hours
+
+74
+00:06:16,160 --> 00:06:24,400
+The accumulation score accumulated score was this number for example minor number 17 is on the seventh place is professor Dave's
+
+75
+00:06:25,320 --> 00:06:33,200
+Model and it's also doing like pretty fine. The next leaderboard. This one is the leaderboard that shows information in each
+
+76
+00:06:34,000 --> 00:06:36,240
+point of time so each five minutes it's
+
+77
+00:06:37,160 --> 00:06:43,800
+Updating and you can see here for example minor number 54 made the best
+
+78
+00:06:44,360 --> 00:06:46,000
+prediction in the
+
+79
+00:06:46,000 --> 00:06:48,360
+last specific data point
+
+80
+00:06:48,720 --> 00:06:53,920
+So but for the 24 last 24 hours minor 54
+
+81
+00:06:55,040 --> 00:06:56,520
+Wasn't that good?
+
+82
+00:06:56,520 --> 00:07:00,730
+Where it is? I can't find it. So it's not even top 10
+
+83
+00:07:00,970 --> 00:07:04,290
+But so this is why this leaderboard is less represent
+
+84
+00:07:05,170 --> 00:07:08,490
+Representative because some model can make just
+
+85
+00:07:09,690 --> 00:07:15,770
+Random prediction and it could be right in the specific time but on the
+
+86
+00:07:16,950 --> 00:07:21,430
+Several hours period the accumulated result is worse than
+
+87
+00:07:22,190 --> 00:07:24,510
+worse than that
+
+88
+00:07:24,510 --> 00:07:32,510
+Okay, how to use this plot here you also can filter on the six days on the days and hours
+
+89
+00:07:33,310 --> 00:07:35,790
+For example, you can see here on the 30 days
+
+90
+00:07:37,190 --> 00:07:43,610
+Let's take a look on the 30 days that there are clear patterns in the energy demand data
+
+91
+00:07:44,130 --> 00:07:50,450
+But also here the most represent a representative one is 24 hours. Let me take my minor
+
+92
+00:07:50,490 --> 00:07:55,570
+This is my minor number four and as we can see here, it's not doing
+
+93
+00:07:56,050 --> 00:08:03,050
+Great, but in general it can sometimes at this sometimes catch the general pattern
+
+94
+00:08:03,250 --> 00:08:10,410
+Let's take a look on minor number six. Oh, wow should this minor the best minor here, right?
+
+95
+00:08:10,730 --> 00:08:12,730
+the best minor
+
+96
+00:08:13,850 --> 00:08:17,930
+Now I understand why it's best minor so this is the best model so far
+
+97
+00:08:17,930 --> 00:08:21,930
+Let's take a look on minor number 18 and it's funny though
+
+98
+00:08:22,650 --> 00:08:27,330
+This minor had a really good model, but it didn't catch the
+
+99
+00:08:28,130 --> 00:08:36,170
+Today's pattern because today is very rainy and cold day. So this is why a lot of people turn on their heaters and it wasn't
+
+100
+00:08:37,660 --> 00:08:44,940
+The model didn't catch it the model thought it's gonna be like it was like yesterday you see these
+
+101
+00:08:46,180 --> 00:08:49,180
+These spikes are here. So maybe model
+
+102
+00:08:49,780 --> 00:08:52,300
+This model mimics the previous behavior
+
+103
+00:08:53,330 --> 00:09:00,010
+Okay, and you also can you know, for example, I can take my minor and look at professor Dave's minor
+
+104
+00:09:01,410 --> 00:09:03,460
+And add the
+
+105
+00:09:03,460 --> 00:09:07,740
+Top minor number six and I just can can compare them
+
+106
+00:09:08,580 --> 00:09:10,580
+What's going on?
+
+107
+00:09:10,620 --> 00:09:17,540
+So yeah, you can take a look on this website and I think this is mostly so
+
+108
+00:09:17,940 --> 00:09:20,700
+We really hope that you're gonna enjoy it
+
+109
+00:09:21,530 --> 00:09:23,010
+you're gonna
+
+110
+00:09:23,010 --> 00:09:29,610
+Have fun with this because for example, I personally I'm so proud that my minor my model is
+
+111
+00:09:30,450 --> 00:09:32,410
+much higher
+
+112
+00:09:32,410 --> 00:09:38,050
+In our ranking event professor days. So hey professor. I'm waiting for you and
+
+113
+00:09:38,810 --> 00:09:45,410
+Also, I know that minor number six. These are really cool minor is a minor of one of our team members
+
+114
+00:09:45,410 --> 00:09:48,530
+His name is Matt. He's the data science genius. I would say
+
+115
+00:09:49,010 --> 00:09:55,590
+Okay. Other than that. I think I hope at least that you will find it fun and as well as
+
+116
+00:09:56,730 --> 00:10:01,970
+It will help you and your education. So good luck be creative
+
+117
+00:10:03,210 --> 00:10:05,210
+experiment
+
+118
+00:10:05,650 --> 00:10:08,290
+Try to do some cool stuff and
+
+119
+00:10:09,290 --> 00:10:15,370
+Enjoy it. Okay guys. Good luck with your final project and reach out to me with any questions
+
+120
+00:10:15,370 --> 00:10:17,370
+Okay. Bye. Bye
+

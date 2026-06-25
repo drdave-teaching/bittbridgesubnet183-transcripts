@@ -1,0 +1,116 @@
+1
+00:00:03,310 --> 00:00:14,270
+Okay, cool. So, as we can see here from the logs, I deployed my miner at 11.13 and it
+
+2
+00:00:14,270 --> 00:00:24,790
+got deployed with card model. And at 11.15, it made a prediction for the next five minutes
+
+3
+00:00:24,790 --> 00:00:40,020
+using card model, right? Yeah. So, if I want to experiment with the configuration features
+
+4
+00:00:40,020 --> 00:00:46,460
+and hyperparameters, I don't necessarily need to stop the tmux at first. I can keep my miner
+
+5
+00:00:46,460 --> 00:00:54,060
+working and just detach from the session, control B plus D, detach from session, and I can run
+
+6
+00:00:54,060 --> 00:01:03,620
+the miner here. Let me make some changes in the config file. Nano, model parameters, YAML.
+
+7
+00:01:04,260 --> 00:01:18,210
+Okay. For example, I want to include also a humidity feature. So, I need just to put it here.
+
+8
+00:01:18,210 --> 00:01:27,840
+And now, my model will use in the training and validation and test datasets. And not only
+
+9
+00:01:27,920 --> 00:01:34,560
+the time features, but as well as temperature feature and relative humidity feature. Okay.
+
+10
+00:01:34,560 --> 00:01:45,860
+I've done these changes here. And also, I want to add the depth to the card model. Instead of six,
+
+11
+00:01:45,860 --> 00:01:53,460
+I will put it seven. Control O to save, enter, control X. And if I want to experiment and see
+
+12
+00:01:53,460 --> 00:02:00,740
+how my model's performed without necessarily stopping the miner, I can just run this command
+
+13
+00:02:00,740 --> 00:02:14,220
+here. It will run the miner. I don't want to run the baseline model. I don't want to update
+
+14
+00:02:14,940 --> 00:02:23,660
+my training datasets since it's pretty recent, 10 minutes ago. No. And I want to see how my card
+
+15
+00:02:23,660 --> 00:02:37,710
+model will perform with these new changes. And just for reference, previously, this was my metrics.
+
+16
+00:02:38,720 --> 00:02:45,630
+Okay. Let's check. Let's check. Okay. Cool. So, with only this small change,
+
+17
+00:02:45,630 --> 00:03:03,890
+so let's track my experiment two. Experiment two. Add temp plus humidity. And also, add depth
+
+18
+00:03:05,300 --> 00:03:19,490
+card to seven. Okay. And we can see with only this miner and a very small change, my results
+
+19
+00:03:19,490 --> 00:03:28,370
+and metrics are much, much better. So, even if the validation set is not R-square is not,
+
+20
+00:03:30,340 --> 00:03:37,950
+is not, sorry, much bigger than our previous experiment. But since we can see that there
+
+21
+00:03:37,950 --> 00:03:45,820
+is definitely an improvement and training set improved, and the model on the training set
+
+22
+00:03:45,900 --> 00:03:57,410
+improved much better. So, I just, sorry, I will track this metrics here. And I can restart
+
+23
+00:03:59,330 --> 00:04:05,730
+my miner. I can't do it here since I need tmux to do it. So, do I want to deploy this model? No.
+
+24
+00:04:06,290 --> 00:04:15,010
+I choose exit miner here. I exit the miner. And I want to go to tmux and restart my miner.
+
+25
+00:04:15,010 --> 00:04:26,660
+tmux attach tminer. Okay. And here, I just need to rerun the command and it will automatically use the,
+
+26
+00:04:28,130 --> 00:04:37,710
+so, run this command here. I don't want to use baseline. Update data. No. I want to run card.
+
+27
+00:04:39,310 --> 00:04:46,830
+It will retain it one more time, but with the new features and with the new hyper parameters.
+
+28
+00:04:47,550 --> 00:04:56,530
+So, and yeah, if I want to deploy it, I just need to press Y and it will be deployed and
+
+29
+00:04:56,530 --> 00:05:00,450
+miner will run. Okay. I will take a pause here and continue next video.
+

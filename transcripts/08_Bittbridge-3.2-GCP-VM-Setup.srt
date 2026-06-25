@@ -1,0 +1,136 @@
+1
+00:00:01,300 --> 00:00:06,460
+Okay, so what happens in part two? We just need to copy paste all the commands from here
+
+2
+00:00:06,940 --> 00:00:15,160
+We just need to update all the packages of this OS. So look at this is when
+
+3
+00:00:15,820 --> 00:00:21,820
+That Mac OS notify you that you need to install some updates or Windows for example
+
+4
+00:00:21,980 --> 00:00:29,140
+Let's just copy paste all these commands from here. It will take some time, but it will not be long
+
+5
+00:00:29,780 --> 00:00:32,740
+Okay, I'll take a pause when it's done
+
+6
+00:00:32,980 --> 00:00:35,750
+Okay, next command is
+
+7
+00:00:36,510 --> 00:00:46,220
+Okay, we can type clear it will clear our terminal and then we need to
+
+8
+00:00:47,540 --> 00:00:53,860
+Let's create the director make dear and let's name it. I don't know
+
+9
+00:00:58,440 --> 00:01:03,250
+Okay, and we can put the LS
+
+10
+00:01:03,250 --> 00:01:07,930
+This is mean least command and we can see that hey this folder is created
+
+11
+00:01:07,930 --> 00:01:15,570
+it's very the same as when you create the folder on your Mac or in the windows and we can type CD and
+
+12
+00:01:16,350 --> 00:01:21,250
+Type the name of this folder. So basically we go inside this folder. We just dive into it
+
+13
+00:01:21,830 --> 00:01:27,510
+Yeah, we can see that we inside this folder now. We need to git clone our
+
+14
+00:01:28,230 --> 00:01:29,350
+repository
+
+15
+00:01:29,350 --> 00:01:31,620
+Git clone
+
+16
+00:01:31,620 --> 00:01:34,860
+Okay, it's done. So what happened here? We cloned
+
+17
+00:01:35,500 --> 00:01:37,500
+entire repository and
+
+18
+00:01:37,980 --> 00:01:43,180
+If we put the LS least command, we can see that here is the beat bridge
+
+19
+00:01:43,900 --> 00:01:46,890
+Beat bridge folder. Let's go into it
+
+20
+00:01:47,900 --> 00:01:50,500
+Okay. So as you can see here on the path
+
+21
+00:01:50,500 --> 00:01:55,660
+We're inside beat bridge folder and if we type down one more time LS mean least
+
+22
+00:01:56,530 --> 00:02:04,360
+We can see that there is the entire structure of our project. Let me show you so as you can see
+
+23
+00:02:05,000 --> 00:02:11,220
+The directories here beat the beat bridge contribute docs minor model neurons scripts and
+
+24
+00:02:12,160 --> 00:02:15,530
+Everything is here. This is cool, right?
+
+25
+00:02:16,440 --> 00:02:17,710
+Okay
+
+26
+00:02:17,710 --> 00:02:23,830
+What our next step we need to create the virtual environment. We're inside our beat bridge folder and
+
+27
+00:02:24,550 --> 00:02:40,780
+Let's create and when you can see a vent like this then it means that you created you activated your virtual environment
+
+28
+00:02:40,980 --> 00:02:48,680
+Let's install all necessary dependencies using this command. It will take some time. So I'll take a break here
+
+29
+00:02:48,680 --> 00:02:50,440
+And I will come back when it's done
+
+30
+00:02:50,440 --> 00:03:00,300
+Yep, it's done. We can see that everything installed and we can verify using this command. Let's check it out. It is a live version
+
+31
+00:03:01,440 --> 00:03:03,440
+Yeah, the latest version
+
+32
+00:03:05,440 --> 00:03:07,440
+Let's check
+
+33
+00:03:08,430 --> 00:03:11,950
+Yeah, be tense 4k, this is great news, okay
+
+34
+00:03:11,950 --> 00:03:17,430
+I'll take a pause here and then the next video will create the wallets and filled up with tokens
+

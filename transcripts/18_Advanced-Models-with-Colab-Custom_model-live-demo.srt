@@ -1,0 +1,832 @@
+1
+00:00:01,040 --> 00:00:05,400
+Hey everyone, how you doing? I'm excited to introduce you with our new feature
+
+2
+00:00:05,400 --> 00:00:11,060
+It's the custom model plugin architecture and in this demo. I will with you in the live
+
+3
+00:00:11,560 --> 00:00:15,840
+We'll go through it. Okay. So first and first we start on this page
+
+4
+00:00:15,840 --> 00:00:21,240
+please take a look on all these rules and disclaimers they are important and
+
+5
+00:00:22,800 --> 00:00:24,800
+Okay, let me start with
+
+6
+00:00:25,480 --> 00:00:29,140
+Opening my virtual machine. I will do everything with you
+
+7
+00:00:29,660 --> 00:00:33,880
+I'll take a pause while it's loading
+
+8
+00:00:35,770 --> 00:00:39,050
+Okay, so I will do it first. Just clear my terminal
+
+9
+00:00:39,600 --> 00:00:41,600
+Okay, I cleared it and
+
+10
+00:00:41,840 --> 00:00:46,000
+Let's go through the guide first. I will follow this
+
+11
+00:00:46,680 --> 00:00:48,680
+flow right here and
+
+12
+00:00:50,000 --> 00:00:52,500
+Yeah, let's go to the update and restart page
+
+13
+00:00:52,960 --> 00:00:57,960
+It's changed a little bit so you can also please take a look especially on the important nodes
+
+14
+00:00:58,360 --> 00:01:00,520
+but first thing first, I need to go to my
+
+15
+00:01:01,120 --> 00:01:03,800
+British folder
+
+16
+00:01:03,800 --> 00:01:10,400
+This is it. I have a little bit different naming than you but still I have this CD with the bridge folder
+
+17
+00:01:10,400 --> 00:01:12,400
+I will run these commands
+
+18
+00:01:13,920 --> 00:01:16,820
+Okay
+
+19
+00:01:17,820 --> 00:01:22,330
+Inside and here I can do get pulled
+
+20
+00:01:27,730 --> 00:01:32,450
+Okay, you see I have the error of a good pull and I have in the guide
+
+21
+00:01:32,450 --> 00:01:38,290
+There is specific information how to make it work. So get reset hard and then get pulled
+
+22
+00:01:39,970 --> 00:01:43,650
+Okay, cool. So I pulled all the changes from my remote repository
+
+23
+00:01:44,730 --> 00:01:46,730
+and then I need to
+
+24
+00:01:47,250 --> 00:01:50,120
+update my
+
+25
+00:01:50,280 --> 00:01:56,360
+Python dependencies, so I am just running the commands from the script and I will take a pause until it's done
+
+26
+00:01:57,280 --> 00:02:03,360
+Okay, it's done. So I clear my terminal what's next? Okay. Now it's time to experiment with the models
+
+27
+00:02:03,600 --> 00:02:08,040
+I go back to our main guide and also I will run here this
+
+28
+00:02:08,880 --> 00:02:10,880
+pseudo update command
+
+29
+00:02:10,920 --> 00:02:13,120
+Okay, and I will come back when it's done
+
+30
+00:02:15,600 --> 00:02:22,240
+Okay, it's all done all updated. And now I will I just want to play with my
+
+31
+00:02:25,500 --> 00:02:27,500
+Yeah, I just want to add
+
+32
+00:02:29,300 --> 00:02:37,230
+Let's pick up couple features so I want to pick up the temperature
+
+33
+00:02:38,430 --> 00:02:40,430
+and humidity, for example
+
+34
+00:02:41,270 --> 00:02:45,190
+play with this feature as you want and yeah, let me use the
+
+35
+00:02:46,630 --> 00:02:55,270
+Lex feature just last two hours. I think my model won't be that good. But let's try so I save this features
+
+36
+00:02:55,790 --> 00:02:57,240
+Why?
+
+37
+00:02:57,240 --> 00:03:00,360
+All right. Okay, it's done here and
+
+38
+00:03:01,320 --> 00:03:05,380
+What is my next step now? I need to run my minor
+
+39
+00:03:12,330 --> 00:03:19,800
+Okay, so I will use the option number three
+
+40
+00:03:20,560 --> 00:03:24,440
+Number three. I don't want to update my training
+
+41
+00:03:25,480 --> 00:03:30,760
+Data set timing and yes, I want to create a new folder. Yes here
+
+42
+00:03:30,760 --> 00:03:34,080
+I will use the folder name from example custom test
+
+43
+00:03:35,000 --> 00:03:38,320
+Creating this folder. So what's going on behind the scenes? There is
+
+44
+00:03:38,880 --> 00:03:44,760
+New folder names artifacts and the custom test model custom test folder created
+
+45
+00:03:44,760 --> 00:03:48,600
+And inside of this is going to be the training data set
+
+46
+00:03:48,760 --> 00:03:56,300
+There's some metadata in JSON format as well as template of call up not to book. Okay, it's created
+
+47
+00:03:56,950 --> 00:03:58,950
+Let's let's have a look
+
+48
+00:03:59,470 --> 00:04:03,190
+I'm going to change directory to artifacts folder
+
+49
+00:04:05,320 --> 00:04:10,120
+Change directory to custom model folder that I just created
+
+50
+00:04:10,760 --> 00:04:12,760
+okay, it's
+
+51
+00:04:13,360 --> 00:04:15,360
+Everything is here. So
+
+52
+00:04:15,720 --> 00:04:21,560
+Then I need to create the zip archive of this folder. I will go one level above
+
+53
+00:04:23,440 --> 00:04:29,200
+So as you can see here, I'm inside artifacts folder, right and I will run this command zip
+
+54
+00:04:29,720 --> 00:04:35,600
+Create the zip archive and it's creating the zipper archive out of the custom test
+
+55
+00:04:37,000 --> 00:04:39,000
+folder that just was created and
+
+56
+00:04:39,440 --> 00:04:44,560
+I want to know let me show you so you can see there. There is a new zipper kind file
+
+57
+00:04:45,680 --> 00:04:52,800
+Let's know the file the path of this zip archive and we need to download it locally on my laptop
+
+58
+00:04:52,800 --> 00:04:55,800
+so I'm downloaded it from virtual machine to my
+
+59
+00:04:56,480 --> 00:04:58,280
+laptop, okay, it's nice
+
+60
+00:04:58,280 --> 00:05:05,940
+Don't it doesn't want to work. So I restart my virtual machine to make the download file option available
+
+61
+00:05:07,100 --> 00:05:10,270
+price
+
+62
+00:05:10,270 --> 00:05:12,270
+clear terminal
+
+63
+00:05:12,470 --> 00:05:14,530
+Okay, let me
+
+64
+00:05:15,530 --> 00:05:24,280
+Okay, I am going one more time inside artifacts
+
+65
+00:05:25,440 --> 00:05:29,200
+Here I want to know the real path of the zipper kind
+
+66
+00:05:29,840 --> 00:05:34,760
+Done. This is my real path and I just put it in download
+
+67
+00:05:37,620 --> 00:05:40,300
+Okay, download started. I will come back when it's done
+
+68
+00:05:42,500 --> 00:05:44,500
+Okay, I have my zipper kind
+
+69
+00:05:45,260 --> 00:05:47,380
+Downloaded locally. Here is the
+
+70
+00:05:48,260 --> 00:05:50,260
+folder
+
+71
+00:05:50,260 --> 00:05:59,250
+Did it yes, okay here it is so you can see here it was downloaded just now. What are my next steps?
+
+72
+00:06:01,110 --> 00:06:05,350
+Okay, now we go to the call up let's go open the call up
+
+73
+00:06:05,790 --> 00:06:12,150
+So we need to open the starting page of the Google call up. It's the call up research Google com
+
+74
+00:06:12,150 --> 00:06:17,340
+I click upload here and I will I will choose
+
+75
+00:06:18,220 --> 00:06:20,220
+this custom train
+
+76
+00:06:21,380 --> 00:06:22,860
+Call up file
+
+77
+00:06:22,860 --> 00:06:31,100
+Think about this call up file as a template. It's just a template. So yeah, let's first run these commands and
+
+78
+00:06:33,380 --> 00:06:39,040
+As well as these two example is that they are just examples you can play with
+
+79
+00:06:39,740 --> 00:06:46,420
+other architectures who are not really stick to them his gradient boosting progress we are not really stick to the
+
+80
+00:06:47,300 --> 00:06:54,180
+Basic neural net here. You can use the LSTM RNN all other types. Just be sure as it mentioned
+
+81
+00:06:56,130 --> 00:07:02,530
+Previously that it should be regressors models. Okay. Let me take a pause here until when it's done
+
+82
+00:07:04,200 --> 00:07:11,840
+Okay, so it's all done. We need now according to the base markdown we need to restart our call up session
+
+83
+00:07:11,840 --> 00:07:16,400
+And let me also as well according to our guide
+
+84
+00:07:18,040 --> 00:07:20,040
+Change the call up
+
+85
+00:07:20,480 --> 00:07:23,960
+run type change run type type to the TPU and
+
+86
+00:07:24,800 --> 00:07:27,680
+Yes, okay and save here
+
+87
+00:07:28,200 --> 00:07:34,350
+Okay, so we can see the here that the connection is happens while it happens
+
+88
+00:07:34,350 --> 00:07:39,970
+We can go to our files on the left and create the folder a new folder
+
+89
+00:07:40,630 --> 00:07:44,550
+custom and
+
+90
+00:07:44,550 --> 00:07:49,830
+Inside this folder. I will just drop our training data set and Jason made the data
+
+91
+00:07:51,360 --> 00:07:53,460
+Okay, and
+
+92
+00:07:53,540 --> 00:07:58,820
+Okay, everything's inside. Let's run this first cell and we also need to update
+
+93
+00:07:59,660 --> 00:08:03,800
+Copy path here and I need to paste it here
+
+94
+00:08:04,300 --> 00:08:10,950
+Okay, let's run this command and it will take a second. Yeah, we can see our data set got
+
+95
+00:08:12,340 --> 00:08:14,700
+Uploaded let's take a look on the data set
+
+96
+00:08:15,710 --> 00:08:20,470
+We can see here all the temperature and humidity features that I chose
+
+97
+00:08:21,150 --> 00:08:25,670
+Previously are here our hours and dates features our lag feature
+
+98
+00:08:25,950 --> 00:08:30,590
+So please don't make any changes inside the call up with the data set itself
+
+99
+00:08:30,830 --> 00:08:35,990
+All the changes if you want to pick up or drop any features or rename it
+
+100
+00:08:36,230 --> 00:08:38,850
+Everything happens inside terminal right here
+
+101
+00:08:40,100 --> 00:08:42,100
+Okay, what's next?
+
+102
+00:08:42,740 --> 00:08:49,820
+Let me you know, so these two models are just as examples. They are just examples. I will create my own
+
+103
+00:08:50,820 --> 00:08:56,940
+Model right now with the code and I will show you that you can use the whole flexibility of the call up
+
+104
+00:08:56,940 --> 00:08:59,840
+Let me take a pause here. Well, I'm developing my new
+
+105
+00:09:00,420 --> 00:09:03,570
+custom really custom model
+
+106
+00:09:03,610 --> 00:09:09,050
+Okay, let's continue. So as we can see here, I just created some basic very basic
+
+107
+00:09:10,850 --> 00:09:12,850
+Linear regression rich model
+
+108
+00:09:12,970 --> 00:09:17,810
+So it the performance is not that great, but I don't care about it right now
+
+109
+00:09:17,810 --> 00:09:21,650
+So it's your job to play with the model types and make the model
+
+110
+00:09:22,210 --> 00:09:25,970
+as best as you can so but important note is that
+
+111
+00:09:26,630 --> 00:09:27,830
+As you can see here
+
+112
+00:09:27,830 --> 00:09:34,070
+I added some metrics that I can really where I can really understand how my model is will be
+
+113
+00:09:34,430 --> 00:09:40,270
+Will perform in production when it's good deployed and also there are some visuals I added
+
+114
+00:09:41,150 --> 00:09:45,430
+So if you can if you want you can take a pause and here it is my code
+
+115
+00:09:46,070 --> 00:09:53,020
+But the important part right here is how to save the model. So for the
+
+116
+00:09:53,800 --> 00:10:00,100
+Skill earn models you need to use the drop leap function for neural nets. You will need to use the
+
+117
+00:10:02,460 --> 00:10:08,600
+Save function from them from TensorFlow. So as you can see here on the left
+
+118
+00:10:09,240 --> 00:10:15,280
+My model custom drop leap got dumped. So essentially the weights of the model
+
+119
+00:10:15,960 --> 00:10:23,640
+Got created so I will download these weights to my local laptop one more time. So in the download folder, there is
+
+120
+00:10:25,370 --> 00:10:31,010
+This job leap extension model and let's go to our guide
+
+121
+00:10:33,290 --> 00:10:35,290
+To do we trained we saved
+
+122
+00:10:35,930 --> 00:10:41,330
+okay, we didn't edit any feature columns, so it's okay and
+
+123
+00:10:42,290 --> 00:10:48,970
+We download the train model from the call up and let's upload it back to power virtual machine how to do it
+
+124
+00:10:49,490 --> 00:10:51,410
+Let's clear
+
+125
+00:10:51,410 --> 00:10:57,270
+We need to click upload file and choose this job leap file from my download folder
+
+126
+00:10:58,600 --> 00:11:00,640
+Upload files case got uploaded
+
+127
+00:11:01,440 --> 00:11:04,880
+One caveat that is what uploaded to our home directory
+
+128
+00:11:04,880 --> 00:11:09,880
+So I will go to my home directory name CD and as you can see here
+
+129
+00:11:10,280 --> 00:11:12,280
+no path, so
+
+130
+00:11:13,380 --> 00:11:15,780
+Here it is my model custom job leap
+
+131
+00:11:18,590 --> 00:11:24,430
+Model the saved model and I need to move this model to our artifacts folder that I showed you
+
+132
+00:11:24,830 --> 00:11:31,150
+Previously and I can run at this command. I will do some slight change because my path is
+
+133
+00:11:31,550 --> 00:11:38,310
+Real a little bit different from yours. But as far as I remember you can just run this command
+
+134
+00:11:39,470 --> 00:11:41,550
+Let me take a pause here and
+
+135
+00:11:42,670 --> 00:11:49,490
+I will change this comment for now. So I run this comment and V stands for move. I moved our
+
+136
+00:11:50,010 --> 00:11:54,410
+My model to the artifacts folder. Let me show you how it looks like
+
+137
+00:11:55,050 --> 00:11:58,570
+this
+
+138
+00:11:58,570 --> 00:12:00,570
+list to be preach
+
+139
+00:12:00,570 --> 00:12:04,330
+List I go back to the artifacts directory
+
+140
+00:12:05,120 --> 00:12:06,640
+list and
+
+141
+00:12:06,640 --> 00:12:12,280
+I go back to our custom test folder and this one more time as you can see here
+
+142
+00:12:12,280 --> 00:12:15,480
+Now we have our model custom job leap file
+
+143
+00:12:16,360 --> 00:12:22,920
+In the virtual machine. How cool is that? So now you really can rerun your model. So
+
+144
+00:12:23,480 --> 00:12:29,720
+The model got saved in the virtual machine and we need to run it and make it run 24-7, right?
+
+145
+00:12:30,360 --> 00:12:32,440
+for this reason
+
+146
+00:12:32,440 --> 00:12:35,000
+Let me clear the terminal output
+
+147
+00:12:35,680 --> 00:12:40,320
+I already have one minor running but I didn't really had to
+
+148
+00:12:40,800 --> 00:12:42,800
+Stop it to experiment
+
+149
+00:12:43,760 --> 00:12:48,800
+It was keep running, but let me show you that I have my running T nooks
+
+150
+00:12:49,680 --> 00:12:51,680
+attached terminal
+
+151
+00:12:52,480 --> 00:12:56,680
+Okay, as you can see here my minor is working and making some predictions
+
+152
+00:12:56,680 --> 00:13:02,200
+But I want to change this model since it wasn't performed. Well, so what I'm doing here
+
+153
+00:13:02,200 --> 00:13:06,040
+I press control X. Sorry control control C
+
+154
+00:13:06,560 --> 00:13:10,480
+You can see I'm stopping my minor. I'm stopping the script
+
+155
+00:13:11,430 --> 00:13:19,400
+And let's clear the terminal and I am inside my beat bridge folder and I did all these changes
+
+156
+00:13:19,400 --> 00:13:22,880
+Let me show you that so look on the teammates as a container
+
+157
+00:13:22,880 --> 00:13:28,520
+It's the container that runs the script the script that you tell it to run
+
+158
+00:13:28,600 --> 00:13:34,840
+So I did all the changes externally and after I stopped my previous minor
+
+159
+00:13:35,080 --> 00:13:41,400
+This Timo's container took all the changes. So it's understand the changes were done. So let me show you
+
+160
+00:13:42,360 --> 00:13:49,000
+Let's go to the artifacts folder. I will just show you that you can see here our custom test folder
+
+161
+00:13:49,520 --> 00:13:52,480
+In our job leap file. So let's just
+
+162
+00:13:53,280 --> 00:14:01,040
+Restart the minor running this command click run. Okay
+
+163
+00:14:02,200 --> 00:14:06,480
+Okay, I need to go one level two level of buffs to them
+
+164
+00:14:07,120 --> 00:14:12,200
+Beat bridge you see now I'm on the level of the beat which folder and let's run it one more time
+
+165
+00:14:27,840 --> 00:14:30,800
+Okay, I will choose the option number three. I
+
+166
+00:14:31,880 --> 00:14:36,840
+Don't want to update anything and I don't want to create a new folder
+
+167
+00:14:36,840 --> 00:14:39,800
+I press no here and I need to enter the
+
+168
+00:14:40,680 --> 00:14:42,680
+folder name custom
+
+169
+00:14:45,040 --> 00:14:52,820
+Sorry, what name I used I used custom test custom test custom test
+
+170
+00:14:52,820 --> 00:14:57,700
+So this is the name of the folder of our model inside the artifacts
+
+171
+00:14:58,300 --> 00:14:59,380
+custom test
+
+172
+00:14:59,380 --> 00:15:07,580
+Okay, so it was identified. So this model was identified
+
+173
+00:15:07,580 --> 00:15:14,280
+These are good news and it asking us do I want to deploy this model or no if in this folder would be
+
+174
+00:15:14,640 --> 00:15:17,680
+Several models for example, I create one more
+
+175
+00:15:17,680 --> 00:15:23,840
+I don't know linear regression or decision trees or other models and I will drop them as well in
+
+176
+00:15:24,720 --> 00:15:29,520
+In our artifacts folder in the custom test folder there
+
+177
+00:15:29,520 --> 00:15:32,880
+You will have a choice here which model to run, but I want to
+
+178
+00:15:33,520 --> 00:15:35,680
+Deploy the model I created
+
+179
+00:15:37,290 --> 00:15:40,850
+Okay, I click run and here we will see the success
+
+180
+00:15:41,370 --> 00:15:43,370
+logs right now
+
+181
+00:15:44,990 --> 00:15:52,190
+Okay. Yeah, we can see success that this model got deployed really and after a couple minutes. I will show you
+
+182
+00:15:53,150 --> 00:15:59,710
+That this model is really making the predictions in the real time. Yeah, I will take a pause for a couple minutes
+
+183
+00:16:00,700 --> 00:16:05,460
+Okay, so a couple minutes past and 10 40 my miner made a prediction
+
+184
+00:16:05,460 --> 00:16:11,140
+We can see here that the validator asked it to make a prediction six hours in the future for
+
+185
+00:16:11,540 --> 00:16:18,340
+440 and we can see here what our miner or what our model used as the input
+
+186
+00:16:18,580 --> 00:16:25,860
+So for example model input role right here is the JSON format file. You can copy it
+
+187
+00:16:27,280 --> 00:16:29,860
+You can copy it and for example go
+
+188
+00:16:32,200 --> 00:16:35,520
+JSON viewer and let's paste it and
+
+189
+00:16:36,480 --> 00:16:42,880
+These all inputs that our miner in real time used to make a prediction. These are weather forecasting
+
+190
+00:16:43,550 --> 00:16:47,390
+Okay. So these are good news one thing to mention that
+
+191
+00:16:49,080 --> 00:16:51,080
+your miner will
+
+192
+00:16:51,720 --> 00:16:59,890
+Update here in the plot after six hours. So when validator actually will receive the real
+
+193
+00:17:00,810 --> 00:17:06,850
+Demand data and can make the evaluation for example, you can track this model. I will I will leave it as it is
+
+194
+00:17:07,010 --> 00:17:09,290
+This is my mind minor number four
+
+195
+00:17:09,290 --> 00:17:16,610
+I use the previously cart model and now I switched to my custom collapse tile model
+
+196
+00:17:16,610 --> 00:17:19,150
+So it will it will make different predictions
+
+197
+00:17:20,330 --> 00:17:25,730
+After six hours also, for example, I have other minor minor 106 and
+
+198
+00:17:26,690 --> 00:17:34,290
+This one is trying and also my custom call up style model. But this one I spent some time making it so it
+
+199
+00:17:35,050 --> 00:17:42,370
+Performed much more better. So I had the R square on validation around like point eight or point nine
+
+200
+00:17:42,410 --> 00:17:45,090
+for example for here for
+
+201
+00:17:45,730 --> 00:17:53,330
+Model that I just deployed my R square R square was point three. So it's more than just a random guess
+
+202
+00:17:54,610 --> 00:17:58,130
+Okay, I think this is mostly it so
+
+203
+00:17:59,520 --> 00:18:03,360
+I hope that you will enjoy just jump in the play and
+
+204
+00:18:04,280 --> 00:18:10,840
+Experiment and yeah, I hope that you watch this video on the double speed. Okay, this is it from my side
+
+205
+00:18:11,760 --> 00:18:13,760
+Yeah, reach out if you have any questions
+
+206
+00:18:13,920 --> 00:18:17,680
+please send the screenshots of the bug fixes and
+
+207
+00:18:18,080 --> 00:18:24,100
+We also will be happy if you provide us with feedback. Okay. Bye bite and have a good day
+
+208
+00:18:24,560 --> 00:18:28,680
+Let the hungry day let the hungry game starts. Okay. Goodbye
+

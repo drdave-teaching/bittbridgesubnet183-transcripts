@@ -1,0 +1,92 @@
+1
+00:00:01,650 --> 00:00:10,650
+Okay, let's go next. First thing first, we need to stop the running minor to fetch all the changes, right?
+
+2
+00:00:10,650 --> 00:00:16,650
+So I opened my tmux session. Let me show you how to do it one more time.
+
+3
+00:00:16,650 --> 00:00:23,100
+I just need to run this command tmux attach terminal minor.
+
+4
+00:00:23,100 --> 00:00:30,100
+Okay, I'm inside the tmux terminal and I need just to stop the minor.
+
+5
+00:00:30,100 --> 00:00:36,100
+I need to press Ctrl plus C. Ctrl C, it stops execution of Python command.
+
+6
+00:00:36,100 --> 00:00:40,100
+We can see that it's stopping the minor. Okay, minor is stopped.
+
+7
+00:00:40,100 --> 00:00:51,250
+And I need to deattach the tmux session. It's Ctrl D plus D. Okay, I deattached from the session.
+
+8
+00:00:51,250 --> 00:00:57,600
+You can see the logs here. I need to pull the latest code.
+
+9
+00:00:59,140 --> 00:01:06,170
+How to do it? I am inside the bitbridge folder, right?
+
+10
+00:01:06,170 --> 00:01:17,510
+So as you can see here, I'm inside the bitbridge folder and I need to run the command git pull
+
+11
+00:01:17,510 --> 00:01:31,830
+and it pulled all the recent changes that were done into the main branch of the remote gitcap repository of this code base.
+
+12
+00:01:31,830 --> 00:01:37,960
+First and first, sometimes you will see errors saying something like, please commit your changes,
+
+13
+00:01:37,960 --> 00:01:47,340
+so search them before you merge. So if these appear on your end, just run git reset hard command and then git pull.
+
+14
+00:01:47,340 --> 00:01:50,540
+Okay, what next we need to do?
+
+15
+00:01:50,540 --> 00:01:55,540
+So I assume that you've done the git pull command and you fetched all the changes.
+
+16
+00:01:55,540 --> 00:02:03,540
+Now you need to activate the virtual environment. So let me rerun this command, source.
+
+17
+00:02:03,540 --> 00:02:08,540
+Okay, I can see the length here on the left. So it means that I activated my virtual environment
+
+18
+00:02:08,540 --> 00:02:16,730
+and I need to install all the new requirements. Let's run prep install, error requirements.txt command.
+
+19
+00:02:16,730 --> 00:02:23,730
+So as you can see here, all the requirements were already installed on my end. I put command clear.
+
+20
+00:02:23,730 --> 00:02:32,850
+Okay, so this is mostly it. We've updated our virtual machine code base
+
+21
+00:02:32,850 --> 00:02:44,360
+and we've made it aligned with the most recent and most updated version of the code from the remote repository.
+
+22
+00:02:44,360 --> 00:02:54,360
+And yeah, I will take a pause here and I will show you how to work and deploy advanced machine learning models
+
+23
+00:02:54,360 --> 00:02:57,360
+and how to deploy them as a minor. Thank you.
+

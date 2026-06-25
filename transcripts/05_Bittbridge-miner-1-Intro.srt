@@ -1,0 +1,152 @@
+1
+00:00:01,940 --> 00:00:08,560
+Hey everyone, so today we will speak a little bit about the decentralized AI and specifically about the beat bridge
+
+2
+00:00:08,920 --> 00:00:13,540
+So here is where the everything starts. It's a github repository. It's
+
+3
+00:00:14,300 --> 00:00:19,420
+Public available. You can just go using this link and you will see
+
+4
+00:00:20,060 --> 00:00:25,500
+The code itself and the documentation to it. So what is beat bridge? It's the
+
+5
+00:00:26,540 --> 00:00:31,460
+decentralized AI network that is built on top of the bit tensor infrastructure
+
+6
+00:00:32,460 --> 00:00:34,180
+and the
+
+7
+00:00:34,180 --> 00:00:36,180
+subnet is basically the
+
+8
+00:00:36,900 --> 00:00:41,900
+Project. So this project is for New England energy demand
+
+9
+00:00:43,060 --> 00:00:48,820
+Prediction and here is the high-level workflow how everything works behind the scenes
+
+10
+00:00:50,380 --> 00:00:51,700
+there is
+
+11
+00:00:52,340 --> 00:00:54,340
+two main
+
+12
+00:00:55,060 --> 00:01:00,070
+Two main actors the validators and miners and
+
+13
+00:01:00,870 --> 00:01:02,870
+Validators basically they
+
+14
+00:01:02,950 --> 00:01:07,670
+Send the challenge to the miner and the challenge they just ask a miner. Hey miner
+
+15
+00:01:07,950 --> 00:01:13,630
+Can you please make a prediction was the energy demand gonna be in next?
+
+16
+00:01:14,190 --> 00:01:16,220
+five minutes for example and
+
+17
+00:01:16,580 --> 00:01:17,900
+miner
+
+18
+00:01:17,900 --> 00:01:24,900
+they see okay the validators asking me to make a prediction for this timestamp and the miner using the
+
+19
+00:01:25,380 --> 00:01:30,580
+machine learning model or any prediction model making a prediction and
+
+20
+00:01:31,220 --> 00:01:38,180
+Send it back to the validator and then when validator got the actual information. What is the
+
+21
+00:01:38,860 --> 00:01:40,780
+real energy demand
+
+22
+00:01:40,780 --> 00:01:47,980
+Was and this particular timestamp then it has the actual data and predicted data by the miner
+
+23
+00:01:48,220 --> 00:01:54,980
+So here is the validator using incentive mechanism it it evaluate it evaluates miners
+
+24
+00:01:55,660 --> 00:01:57,420
+performance and
+
+25
+00:01:57,420 --> 00:01:58,420
+send
+
+26
+00:01:58,420 --> 00:02:04,940
+Weights to the bit tensor blockchain. So in the blockchain it contains all the
+
+27
+00:02:06,780 --> 00:02:09,440
+All the rewards for the miners
+
+28
+00:02:11,680 --> 00:02:12,640
+Yeah
+
+29
+00:02:12,640 --> 00:02:16,660
+Here is a quick start how to make everything crime
+
+30
+00:02:16,860 --> 00:02:23,740
+so we will work mostly on the miner side because the validators is the maintains team and
+
+31
+00:02:25,460 --> 00:02:33,100
+Validators they are already deployed. So here is how to use this github repository. Here is the
+
+32
+00:02:33,860 --> 00:02:35,860
+initial read me file
+
+33
+00:02:36,020 --> 00:02:38,400
+Here you can see the guy the
+
+34
+00:02:39,400 --> 00:02:43,600
+Workflow on the high level the checklist what you should do
+
+35
+00:02:43,600 --> 00:02:47,480
+You can use this checklist to be sure that you are working
+
+36
+00:02:48,240 --> 00:02:52,320
+step by step and that you didn't miss anything and
+
+37
+00:02:53,300 --> 00:02:56,580
+Also, if you face any issues, you can identify
+
+38
+00:02:57,740 --> 00:03:04,100
+Exactly where it happened. Okay, I was I will take a pause here
+

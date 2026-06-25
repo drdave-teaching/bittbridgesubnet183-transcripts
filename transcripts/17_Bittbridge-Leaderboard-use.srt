@@ -1,0 +1,304 @@
+1
+00:00:01,970 --> 00:00:05,850
+Okay, yeah, this is our website.
+
+2
+00:00:05,850 --> 00:00:08,690
+You can try and find the information
+
+3
+00:00:08,690 --> 00:00:10,170
+about what's going on here.
+
+4
+00:00:10,170 --> 00:00:13,270
+Here is the animation on the whole workflow.
+
+5
+00:00:14,410 --> 00:00:16,770
+But I wanna show you how to use the leaderboard.
+
+6
+00:00:16,770 --> 00:00:20,210
+So we can, we have three section of leaderboard.
+
+7
+00:00:20,210 --> 00:00:22,890
+The leaderboard of the latest prediction.
+
+8
+00:00:22,890 --> 00:00:28,050
+So each timestamp, each cycle, this one is updated.
+
+9
+00:00:29,050 --> 00:00:34,050
+For example, we can see that the last prediction at 11.25,
+
+10
+00:00:34,450 --> 00:00:38,450
+the minor with UID number two made the best prediction.
+
+11
+00:00:38,450 --> 00:00:39,770
+So what means the best?
+
+12
+00:00:39,770 --> 00:00:44,770
+The best is the closest one to the actual ground proof data.
+
+13
+00:00:45,550 --> 00:00:48,710
+All right, we can filter it by UID or hotkeys.
+
+14
+00:00:48,710 --> 00:00:53,940
+For example, I know that my UID is number four.
+
+15
+00:00:53,940 --> 00:00:59,380
+Yeah, and this was my latest prediction.
+
+16
+00:00:59,460 --> 00:01:00,900
+Pretty, pretty bad, right?
+
+17
+00:01:05,130 --> 00:01:08,050
+Yeah, I can sort using all these columns.
+
+18
+00:01:08,050 --> 00:01:09,610
+You can play with this one.
+
+19
+00:01:11,070 --> 00:01:13,630
+The second chart is the 24-hour
+
+20
+00:01:13,630 --> 00:01:15,790
+average minor performance model.
+
+21
+00:01:15,790 --> 00:01:19,590
+And it's used cumulative reward,
+
+22
+00:01:20,790 --> 00:01:22,630
+yeah, cumulative reward.
+
+23
+00:01:22,630 --> 00:01:27,630
+And here, I was the best for the last day.
+
+24
+00:01:28,150 --> 00:01:32,510
+For the last day, my minor was the best.
+
+25
+00:01:32,510 --> 00:01:35,870
+But yeah, I played with features and hyperparameters
+
+26
+00:01:35,870 --> 00:01:36,750
+and with the models.
+
+27
+00:01:36,750 --> 00:01:38,710
+So I chose the best one.
+
+28
+00:01:38,710 --> 00:01:42,150
+As you can see here, my minor UID number four
+
+29
+00:01:42,150 --> 00:01:43,470
+was the best one.
+
+30
+00:01:44,790 --> 00:01:49,790
+For example, I know that Professor Dave's minor is number 17
+
+31
+00:01:49,950 --> 00:01:54,350
+and his minor was not working for the last day.
+
+32
+00:01:54,350 --> 00:01:57,870
+I know also that minor number two,
+
+33
+00:01:57,870 --> 00:02:00,790
+it's one of our team members,
+
+34
+00:02:00,790 --> 00:02:05,890
+and his minor was working pretty good for the last day.
+
+35
+00:02:05,890 --> 00:02:08,970
+So it got the eighth place.
+
+36
+00:02:08,970 --> 00:02:13,970
+And here are all your minors that are working right now.
+
+37
+00:02:14,810 --> 00:02:18,810
+The next plot is the time series plot.
+
+38
+00:02:18,810 --> 00:02:22,130
+So here we can see also we can filter
+
+39
+00:02:22,130 --> 00:02:26,210
+by the hours, days,
+
+40
+00:02:26,210 --> 00:02:31,210
+and we can see how the minors performs
+
+41
+00:02:31,370 --> 00:02:36,370
+as well as how the actual energy demand performs.
+
+42
+00:02:37,410 --> 00:02:41,410
+So we can see the spikes and we can see trends,
+
+43
+00:02:41,410 --> 00:02:43,130
+pretty clear trends here.
+
+44
+00:02:43,130 --> 00:02:47,250
+But let me check the last 24 hours
+
+45
+00:02:47,250 --> 00:02:49,490
+and I wanna see my minor performance.
+
+46
+00:02:49,490 --> 00:02:51,610
+So my minor is number four.
+
+47
+00:02:51,610 --> 00:02:54,370
+And as we can see here, I used the cart model.
+
+48
+00:02:54,370 --> 00:02:59,330
+So this is why the graph is pretty weird,
+
+49
+00:02:59,330 --> 00:03:02,450
+but this is because it's the role-based decision trees.
+
+50
+00:03:03,650 --> 00:03:06,690
+And let's check the minor number two.
+
+51
+00:03:06,690 --> 00:03:09,530
+Yeah, and we can see that definitely minor number two
+
+52
+00:03:09,530 --> 00:03:11,890
+using the moving average model
+
+53
+00:03:11,890 --> 00:03:14,730
+because it's got some shift here.
+
+54
+00:03:14,730 --> 00:03:18,250
+It's following the real trend, but with some shift,
+
+55
+00:03:18,250 --> 00:03:23,250
+it doesn't catch really the spikes here, ups and downs.
+
+56
+00:03:24,770 --> 00:03:29,740
+So it's just using the moving average.
+
+57
+00:03:29,740 --> 00:03:31,060
+It's smooth here.
+
+58
+00:03:31,900 --> 00:03:34,220
+For example, I know that my,
+
+59
+00:03:34,220 --> 00:03:36,620
+and I wanna compare my minor
+
+60
+00:03:36,620 --> 00:03:40,260
+versus the minor of one of my team members.
+
+61
+00:03:40,260 --> 00:03:42,980
+And yeah, I can just filter it here
+
+62
+00:03:42,980 --> 00:03:46,500
+and add, we can filter it using UID.
+
+63
+00:03:49,180 --> 00:03:51,940
+Yeah, so this is mostly it.
+
+64
+00:03:51,940 --> 00:03:53,780
+You can check this website.
+
+65
+00:03:53,780 --> 00:03:55,860
+Here's our cool team.
+
+66
+00:03:57,620 --> 00:04:00,380
+Yeah, but yeah, here is the workflow,
+
+67
+00:04:00,380 --> 00:04:02,180
+how to work with the leaderboard.
+
+68
+00:04:03,060 --> 00:04:05,380
+Also, when you restart the minor
+
+69
+00:04:05,380 --> 00:04:06,900
+or you're doing it the first time,
+
+70
+00:04:06,900 --> 00:04:09,540
+give some time to minor to appear here.
+
+71
+00:04:09,540 --> 00:04:12,660
+Usually it will not take more than 30 minutes,
+
+72
+00:04:13,740 --> 00:04:16,060
+but yeah, just keep this in mind
+
+73
+00:04:16,060 --> 00:04:17,940
+that usually on 30 minutes,
+
+74
+00:04:18,900 --> 00:04:22,640
+your minor will appear here.
+
+75
+00:04:22,640 --> 00:04:24,280
+Yeah, this is mostly it.
+
+76
+00:04:24,280 --> 00:04:25,120
+Thank you.
+

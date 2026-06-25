@@ -1,0 +1,152 @@
+1
+00:00:01,710 --> 00:00:08,810
+Yeah, before leaving you to experiment on your own, I just want to tell you the last things.
+
+2
+00:00:08,810 --> 00:00:15,910
+So first thing first, let me deattach from tmux, control B plus D. Okay, I have deattached
+
+3
+00:00:15,910 --> 00:00:18,910
+from the tmux session.
+
+4
+00:00:18,910 --> 00:00:25,070
+And for example, I want to see my last card model actually was a predicted performance.
+
+5
+00:00:25,070 --> 00:00:35,300
+I need to go to the, yeah, I need to go to the artifacts folder.
+
+6
+00:00:35,300 --> 00:00:38,920
+You can see that I am under the artifacts directory.
+
+7
+00:00:38,920 --> 00:00:48,950
+And for example, I know that I ran the card model five minutes ago or so.
+
+8
+00:00:48,950 --> 00:01:05,440
+So in 26 April the 20th, I think, I think this is it.
+
+9
+00:01:05,440 --> 00:01:07,780
+So one minute ago it was run.
+
+10
+00:01:07,780 --> 00:01:13,440
+So it's the time here is in the UTS time zone.
+
+11
+00:01:13,440 --> 00:01:23,870
+So this is why it's a little bit off, but yeah, I think this is the most recent model here.
+
+12
+00:01:23,870 --> 00:01:29,120
+Let's go inside the folder.
+
+13
+00:01:29,120 --> 00:01:37,290
+And here you can see the five main files and I can download all of them.
+
+14
+00:01:37,290 --> 00:01:43,210
+So the model, card, job, leap, this is the dump of the model weights and you can download
+
+15
+00:01:43,210 --> 00:01:45,410
+it and run locally.
+
+16
+00:01:45,410 --> 00:01:50,490
+The metrics JSON here are stored the metrics of this particular run.
+
+17
+00:01:50,490 --> 00:01:59,090
+The manifest JSON and config snapshot YAML is the config that you used and the manifest
+
+18
+00:01:59,090 --> 00:02:05,770
+here is the data shape and the training data and the time of the training data, timestamp
+
+19
+00:02:05,770 --> 00:02:06,770
+of training data used.
+
+20
+00:02:06,770 --> 00:02:10,490
+But for example, I want to just upload the actual versus predicted.
+
+21
+00:02:10,490 --> 00:02:18,130
+I need to know the path of this file, real path actual versus predicted.
+
+22
+00:02:18,130 --> 00:02:30,460
+I know this path, I just copy it, press then download file here, paste it here and sometime
+
+23
+00:02:30,460 --> 00:02:33,300
+it's not working for the first attempt.
+
+24
+00:02:33,300 --> 00:02:52,830
+So let me restart this page using control R. Control R restart this page, okay, authorize.
+
+25
+00:02:52,830 --> 00:02:54,090
+Cool.
+
+26
+00:02:54,090 --> 00:03:11,620
+The list and go to the bitbridge folder, move to the artifacts folder, okay, and I want to
+
+27
+00:03:11,620 --> 00:03:29,960
+see the actual is predicted for this particular run and one more time, real path predicted,
+
+28
+00:03:29,960 --> 00:03:39,720
+go to this path, download file, paste it here, download, okay, and we can see that it's got
+
+29
+00:03:39,720 --> 00:03:44,680
+downloading keys and progress and it will appear in your download folder.
+
+30
+00:03:44,680 --> 00:03:48,870
+Okay, this is the first thing I want to show you.
+
+31
+00:03:48,870 --> 00:03:57,550
+The second thing, yes, if something got stuck, please just press control C or close your terminal
+
+32
+00:03:57,550 --> 00:04:05,080
+window here and open it one more time using your cool cloud platform window.
+
+33
+00:04:05,080 --> 00:04:12,820
+And yeah, you can track on our cool website all the, yeah, here's some description of what's
+
+34
+00:04:12,820 --> 00:04:14,900
+going on really here.
+
+35
+00:04:14,900 --> 00:04:23,100
+And here our minor leaderboard, for example, on the latest prediction, the minor with UID
+
+36
+00:04:23,100 --> 00:04:27,670
+tool made the best prediction here.
+
+37
+00:04:27,710 --> 00:04:33,470
+Okay, let me go in the next video on how to track your performance really.
+
+38
+00:04:33,470 --> 00:04:34,470
+Okay, I'll take a pause.
+

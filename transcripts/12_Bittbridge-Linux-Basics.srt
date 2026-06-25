@@ -1,0 +1,296 @@
+1
+00:00:02,260 --> 00:00:10,380
+Hey everyone, it's a long time no see right we were working a lot on the development and testing to make your life
+
+2
+00:00:10,860 --> 00:00:14,280
+And your education more entertaining and as well as
+
+3
+00:00:15,140 --> 00:00:17,620
+Easier for you to make some things
+
+4
+00:00:18,700 --> 00:00:25,460
+So yeah, let's start. We stopped last time. I think on deploying the moving average minor, right?
+
+5
+00:00:26,220 --> 00:00:28,300
+So I assume that you have
+
+6
+00:00:28,940 --> 00:00:34,020
+Running moving average minor and we will go next to the update and restart
+
+7
+00:00:34,420 --> 00:00:39,100
+Because a lot of changes were made inside the remote repository our main branch
+
+8
+00:00:39,880 --> 00:00:41,880
+we will need to
+
+9
+00:00:42,590 --> 00:00:44,590
+fetch all these changes and
+
+10
+00:00:45,260 --> 00:00:50,240
+Apply them. But first things first, I want to show you some Linux basics
+
+11
+00:00:51,850 --> 00:00:53,570
+So you
+
+12
+00:00:53,570 --> 00:01:00,730
+Sorry, so it's easier for you to navigate and understand what you're doing and how to navigate Linux really
+
+13
+00:01:01,090 --> 00:01:04,970
+So let's let's open my terminal window
+
+14
+00:01:16,280 --> 00:01:21,080
+Okay, so first things first I want to remove all this information is because it's a
+
+15
+00:01:22,000 --> 00:01:28,480
+Irrelevant, sorry, and I just need to press to enter clear command. Okay. Now terminal is clear
+
+16
+00:01:28,760 --> 00:01:30,760
+Let's start with the first command
+
+17
+00:01:32,080 --> 00:01:36,480
+Pwd it's print working directory. It shows you the path of
+
+18
+00:01:37,400 --> 00:01:39,400
+Where you are right now
+
+19
+00:01:39,800 --> 00:01:41,280
+let's
+
+20
+00:01:41,280 --> 00:01:42,520
+press
+
+21
+00:01:42,520 --> 00:01:49,280
+Let's enter the least command less. It's just printing the list of all the folders inside your
+
+22
+00:01:50,160 --> 00:01:57,120
+Working directory right now. So CD means change directory and let's go to the advanced ML testing
+
+23
+00:01:58,860 --> 00:02:02,820
+Okay. Now as you can see, I am inside this folder right now
+
+24
+00:02:02,820 --> 00:02:08,820
+And if I do this comment one more time, I can see that the bitbridge folder inside this
+
+25
+00:02:09,540 --> 00:02:10,780
+command here
+
+26
+00:02:10,780 --> 00:02:13,700
+Let's dive deeper into the bitbridge folder
+
+27
+00:02:14,260 --> 00:02:20,080
+One more time list command. Okay, I can see all the files from the bitbridge
+
+28
+00:02:21,060 --> 00:02:22,540
+folder right now
+
+29
+00:02:22,540 --> 00:02:26,620
+What is CD and double dot change directory double dot?
+
+30
+00:02:27,260 --> 00:02:32,820
+It's just you goes up to the one level, right? So now if we
+
+31
+00:02:33,820 --> 00:02:38,300
+list command we can see that I am one level above and
+
+32
+00:02:39,570 --> 00:02:41,570
+Let's go back to the bitbridge
+
+33
+00:02:42,060 --> 00:02:48,940
+Now I'm inside the bitbridge folder and for example if I press
+
+34
+00:02:49,700 --> 00:02:54,340
+Print working directory command, I can see the path. Where am I right now?
+
+35
+00:02:55,260 --> 00:02:57,300
+Okay, let's clear it up
+
+36
+00:02:57,300 --> 00:02:59,300
+What's next next is nano
+
+37
+00:03:00,500 --> 00:03:06,460
+So nano is this command opens the basic Linux text editor
+
+38
+00:03:06,740 --> 00:03:13,300
+So let's make some edits into the configuration file model prams.yaml
+
+39
+00:03:13,300 --> 00:03:15,580
+this is the main file you will work with and
+
+40
+00:03:17,220 --> 00:03:23,500
+Okay, I can scroll up I can scroll down and I can make all the changes here
+
+41
+00:03:23,500 --> 00:03:25,580
+So for example, let's change false
+
+42
+00:03:26,460 --> 00:03:28,460
+Let's put it through here
+
+43
+00:03:28,460 --> 00:03:29,400
+I
+
+44
+00:03:29,400 --> 00:03:35,200
+Need to press ctrl o to save this file. It asks us do we want to change the name of the file?
+
+45
+00:03:35,200 --> 00:03:38,840
+I don't want to change anything. So I just press enter and
+
+46
+00:03:39,880 --> 00:03:41,880
+Press ctrl x to close it up
+
+47
+00:03:45,940 --> 00:03:48,260
+Yeah, how I'm how I do
+
+48
+00:03:49,740 --> 00:03:54,220
+this so I just press arrow up or arrow down and
+
+49
+00:03:55,060 --> 00:04:01,940
+We're using this flow I can find the previous commands that was exit you executed in this terminal
+
+50
+00:04:03,380 --> 00:04:09,970
+Okay
+
+51
+00:04:09,970 --> 00:04:12,730
+Okay, control R. I can find the
+
+52
+00:04:13,330 --> 00:04:20,010
+Command that also was previously executed. For example, I want to activate the virtual environment and I need to run that
+
+53
+00:04:20,530 --> 00:04:26,690
+So you see I put just saw source and it found me the source
+
+54
+00:04:27,290 --> 00:04:33,970
+To wait virtual environment command that I run some some time in the bus. So I keep enter and
+
+55
+00:04:34,730 --> 00:04:36,970
+this command was executed and
+
+56
+00:04:38,380 --> 00:04:44,780
+Okay, let me show you one last thing how to scroll inside tmux session. So I assume you have run in minor
+
+57
+00:04:45,340 --> 00:04:47,340
+tmux attach
+
+58
+00:04:47,900 --> 00:04:49,550
+terminal
+
+59
+00:04:49,550 --> 00:04:53,800
+and as you can see here my minor is running, but if I try to
+
+60
+00:04:54,720 --> 00:04:56,720
+scroll it's
+
+61
+00:04:57,360 --> 00:05:04,720
+It doesn't allow me to do so but I can still do it. So we need to press ctrl B and
+
+62
+00:05:05,360 --> 00:05:07,780
+this
+
+63
+00:05:08,880 --> 00:05:11,520
+This thing I don't remember the name sorry
+
+64
+00:05:11,640 --> 00:05:17,720
+So it's control B and this sign and when you see on top
+
+65
+00:05:17,840 --> 00:05:24,120
+Right corner the yellow numbers. It means that you entered the navigation mode and here I can use
+
+66
+00:05:24,600 --> 00:05:26,600
+my mouse or I can use my
+
+67
+00:05:27,360 --> 00:05:29,360
+arrows to scroll up
+
+68
+00:05:30,250 --> 00:05:32,450
+Right. I can scroll down and
+
+69
+00:05:33,730 --> 00:05:35,730
+to quit this
+
+70
+00:05:36,990 --> 00:05:38,870
+Inevigation mode I need just press
+
+71
+00:05:39,830 --> 00:05:49,100
+Q press Q and my tmux session continue to work without me. Okay, I will stop here and
+
+72
+00:05:50,820 --> 00:05:52,820
+In next recording I will explain you
+
+73
+00:05:53,380 --> 00:05:55,420
+how to update your
+
+74
+00:05:55,420 --> 00:06:00,140
+Repository on the code base and fetch all the most recent changes. Thank you
+

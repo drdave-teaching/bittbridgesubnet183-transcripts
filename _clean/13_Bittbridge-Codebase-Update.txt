@@ -1,0 +1,17 @@
+Okay, let's go next. First thing first, we need to stop the running minor to fetch all the changes, right? So I opened my tmux session. Let me show you how to do it one more time.
+
+I just need to run this command tmux attach terminal minor. Okay, I'm inside the tmux terminal and I need just to stop the minor. I need to press Ctrl plus C. Ctrl C, it stops execution of Python command.
+
+We can see that it's stopping the minor. Okay, minor is stopped. And I need to deattach the tmux session. It's Ctrl D plus D.
+
+Okay, I deattached from the session. You can see the logs here. I need to pull the latest code. How to do it?
+
+I am inside the bitbridge folder, right? So as you can see here, I'm inside the bitbridge folder and I need to run the command git pull and it pulled all the recent changes that were done into the main branch of the remote gitcap repository of this code base. First and first, sometimes you will see errors saying something like, please commit your changes, so search them before you merge. So if these appear on your end, just run git reset hard command and then git pull.
+
+Okay, what next we need to do? So I assume that you've done the git pull command and you fetched all the changes. Now you need to activate the virtual environment. So let me rerun this command, source.
+
+Okay, I can see the length here on the left. So it means that I activated my virtual environment and I need to install all the new requirements. Let's run prep install, error requirements.txt command. So as you can see here, all the requirements were already installed on my end.
+
+I put command clear. Okay, so this is mostly it. We've updated our virtual machine code base and we've made it aligned with the most recent and most updated version of the code from the remote repository. And yeah, I will take a pause here and I will show you how to work and deploy advanced machine learning models and how to deploy them as a minor.
+
+Thank you.

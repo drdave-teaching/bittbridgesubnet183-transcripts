@@ -6,8 +6,15 @@ Transcripts for the **UConn BittBridge / decentralized-AI (deAI)** bonus videos 
 - `_clean/` — timestamp-stripped plain text
 - `scripts/` — AI-polished narrative transcripts
 
+## Companion guide
+These transcripts pair with the official **BittBridge guide on GitHub**: **https://github.com/bittbridge/bittbridge** — the subnet codebase + docs (miner/validator setup, model deploy, leaderboard). Watch/read the videos alongside that repo.
+
 ## Status
-⏳ **Transcripts pending.** These 18 videos live in **Dmitrii's** Kaltura My Media, not Dave's — so `/edit` returns 403 and the captions can't be pulled from Dave's account. To populate this repo, Dmitrii needs to **share/publish the videos to Dave** (co-editor or a shared channel/gallery) so they appear in Dave's My Media; then the standard pull → clean → polish pipeline runs and these get filled in. (Alternatively, Dmitrii exports the SRTs directly.)
+✅ **Transcribed (June 2026).** All 18 videos were shared to Dave as Co-Editor on UConn Kaltura. They had **no captions**, so transcripts were generated locally with **faster-whisper** (`small.en`) from the source audio, then cleaned and polished. Machine captions were **also ordered via Kaltura REACH** on all 18 so the videos carry closed captions for students.
+
+- `transcripts/` — raw Whisper `.srt` (verbatim, with ASR quirks on jargon like "Bittensor")
+- `_clean/` — timestamps stripped, reflowed into paragraphs
+- `scripts/` — AI-polished narrative (jargon/grammar/capitalization corrected, readable prose)
 
 ## Video index (18) — entry IDs
 

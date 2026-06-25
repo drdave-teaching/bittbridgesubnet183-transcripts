@@ -1,0 +1,268 @@
+1
+00:00:01,620 --> 00:00:09,140
+Okay great, let's continue. I think that you are still not really understand what's going on and it
+
+2
+00:00:09,140 --> 00:00:15,260
+happened to me as well. When at first time I was introduced to the bit dancer even
+
+3
+00:00:15,260 --> 00:00:20,860
+after several days of really hard digging in I still couldn't really
+
+4
+00:00:20,860 --> 00:00:24,540
+understand what are the manners, what are the validators, what are they doing.
+
+5
+00:00:24,540 --> 00:00:33,140
+So this is why we have this lecture today and it's longer than usual
+
+6
+00:00:33,140 --> 00:00:39,620
+so I hope that you have some sweets and tea or coffee. But yes speaking about
+
+7
+00:00:39,620 --> 00:00:44,980
+examples what really helped me is when one of the bit dancer team members
+
+8
+00:00:44,980 --> 00:00:51,860
+explained me on the very specific school metaphor. So take a look on the left we
+
+9
+00:00:51,860 --> 00:00:57,860
+have the subnet owner. It's kind of the principal in the school. The subnet owner
+
+10
+00:00:57,860 --> 00:01:04,220
+sets the rules and direction where this subnet is going and it's defining the
+
+11
+00:01:04,220 --> 00:01:12,040
+mission. So what goal this subnet want to achieve as well as on the high level it
+
+12
+00:01:12,040 --> 00:01:19,820
+make the performance criteria. On the right the school building itself. This
+
+13
+00:01:19,820 --> 00:01:27,270
+is the synonym of the subnet in other words is the infrastructure and shared
+
+14
+00:01:27,270 --> 00:01:34,000
+resources. These things about the subnet as a place is the infrastructure place
+
+15
+00:01:34,000 --> 00:01:40,760
+as the school building it provides some computational power and as well as data
+
+16
+00:01:40,760 --> 00:01:50,960
+so in other words is the platform for interaction of all the contributors. On
+
+17
+00:01:50,960 --> 00:01:56,640
+the left bottom there are validators in other words they think about them as a
+
+18
+00:01:56,640 --> 00:02:04,520
+teachers. They come up with the task they send this task to them to the
+
+19
+00:02:04,520 --> 00:02:09,720
+students and then they evaluate the students results of the student
+
+20
+00:02:09,720 --> 00:02:18,920
+performance and they grade. They make grading of
+
+21
+00:02:18,920 --> 00:02:27,500
+students performance as well as they ensure that no one is cheating. So they
+
+22
+00:02:27,500 --> 00:02:33,500
+ensure that there is no cheating from the students and the minors think about
+
+23
+00:02:33,500 --> 00:02:37,540
+them as a students itself. So they're trying to solve and crack the problems
+
+24
+00:02:37,540 --> 00:02:43,980
+to compete for the best possible solution and to gain the best the best
+
+25
+00:02:43,980 --> 00:02:51,340
+possible grades. They as well can cheat some time so the work of validator as
+
+26
+00:02:51,340 --> 00:02:57,470
+the teacher and the subnet owner as a principal to
+
+27
+00:02:57,470 --> 00:03:04,840
+so not to allow this cheating. Okay I hope that it's become more clear for
+
+28
+00:03:04,840 --> 00:03:12,560
+you. So for the subnets there are already a real world use cases. I can
+
+29
+00:03:12,560 --> 00:03:17,760
+break them into three main categories. The sharing computation when some people
+
+30
+00:03:17,760 --> 00:03:22,440
+share computational resources so the users can use them for example the
+
+31
+00:03:22,440 --> 00:03:27,980
+using of GPU or the even the full virtual machine. So we are using the
+
+32
+00:03:27,980 --> 00:03:33,200
+Google cloud platform to ram the virtual machine but there are same
+
+33
+00:03:33,200 --> 00:03:38,640
+solutions on the decentralized net. I think for the next next year we can we
+
+34
+00:03:38,640 --> 00:03:46,120
+can use them. The second big category is the shared AI decentralized AI
+
+35
+00:03:46,120 --> 00:03:52,640
+intelligent. These are things when the subnets trying to solve some big
+
+36
+00:03:52,640 --> 00:03:59,970
+problems. And the third main category is the subnets with a very specific goal. So
+
+37
+00:03:59,970 --> 00:04:08,670
+just to show you there is the tau starts. This is the website of bit tensor and as
+
+38
+00:04:08,670 --> 00:04:18,270
+you can see here here is the more than 125 subnets. Each one has the different
+
+39
+00:04:18,270 --> 00:04:23,670
+goals with the different solutions with different architectures and for example
+
+40
+00:04:23,670 --> 00:04:31,410
+the first subnet named tutors is the market cup is around 100 million dollars.
+
+41
+00:04:31,410 --> 00:04:36,250
+So you can see the market cup here in the tau and the tau price on the top
+
+42
+00:04:36,250 --> 00:04:43,440
+left here. Okay let me continue with the presentation and of course you can go
+
+43
+00:04:43,440 --> 00:04:48,600
+and check what the subnets are doing. I will show you just basic examples. So as I
+
+44
+00:04:48,620 --> 00:04:55,250
+mentioned there are subnets that provide computational shared resources and the
+
+45
+00:04:55,250 --> 00:05:00,530
+subnet number four, Tergon, is the computational marketplace. So the miners
+
+46
+00:05:00,530 --> 00:05:09,330
+they provide their GPUs, their machines and validators they make sure that miners
+
+47
+00:05:09,330 --> 00:05:17,650
+have good latency, good connection and also they are encrypted.
+
+48
+00:05:17,670 --> 00:05:25,210
+And for example basically for the GPU renting using the target it's cheaper
+
+49
+00:05:25,210 --> 00:05:32,350
+than to rent it from AWS or Azure or Google Cloud platform. So it's cheaper
+
+50
+00:05:32,350 --> 00:05:39,150
+more than two or sometimes three times. Okay the next subnet you've already seen
+
+51
+00:05:39,150 --> 00:05:45,190
+this picture right it's obviously was created with the nano banana from
+
+52
+00:05:45,190 --> 00:05:50,370
+Google and this is the AI picture. And the other subnet number 34
+
+53
+00:05:50,370 --> 00:05:57,380
+named Bitmind, it is the content verification platform. It allows to
+
+54
+00:05:57,380 --> 00:06:07,220
+detect AI generated content as well as to identify the deep fake content and
+
+55
+00:06:07,220 --> 00:06:11,780
+they have the very interesting architecture. They provide two types of
+
+56
+00:06:11,780 --> 00:06:21,500
+miners. One are generators of fakes or AI images or videos and the other ones is
+
+57
+00:06:21,500 --> 00:06:27,100
+discriminators. They upload detection models, models that can detect AI or
+
+58
+00:06:27,100 --> 00:06:32,060
+fakes. And the validators are responsible for challenging and scoring both minor
+
+59
+00:06:32,060 --> 00:06:37,700
+types. They even has the mobile app and this is right this is all freaking cool
+
+60
+00:06:37,700 --> 00:06:45,130
+the hot idea with the current AI market trend. And one more subnet is named 404
+
+61
+00:06:45,130 --> 00:06:51,710
+Gen. I'm the big fan of the Star Wars as well as I'm the biggest fan
+
+62
+00:06:51,710 --> 00:06:57,870
+of the French Bulldogs in the world and I generated this funny Bulldog Jedi and
+
+63
+00:06:57,870 --> 00:07:05,110
+this subnet it allows you to generate 3D content, 3D assets that you can
+
+64
+00:07:05,110 --> 00:07:11,190
+download and plug into your project. So the miners are
+
+65
+00:07:11,190 --> 00:07:17,110
+competing for providing the best 3D generation solution and the validators
+
+66
+00:07:17,110 --> 00:07:25,480
+are running the benchmark trying to decide which solution is the best. Okay
+
+67
+00:07:25,480 --> 00:07:30,840
+I will take a pause here and I will continue with the next video.
+

@@ -1,0 +1,524 @@
+1
+00:00:01,970 --> 00:00:06,970
+Okay, cool, so now is my favorite part right now.
+
+2
+00:00:07,050 --> 00:00:09,170
+It's how to work and experiment
+
+3
+00:00:09,170 --> 00:00:12,010
+with advanced machine learning models
+
+4
+00:00:12,010 --> 00:00:15,730
+and how to deploy them on the minor side.
+
+5
+00:00:15,730 --> 00:00:19,890
+So first and first, please read these disclaimers here.
+
+6
+00:00:19,890 --> 00:00:21,730
+It's not a lot of text for you to read,
+
+7
+00:00:21,730 --> 00:00:24,010
+but it's important for your understanding
+
+8
+00:00:24,010 --> 00:00:28,610
+in the future steps and it will save you a lot of time.
+
+9
+00:00:28,610 --> 00:00:30,170
+So let me show you.
+
+10
+00:00:30,170 --> 00:00:34,890
+First and first, we need to make some changes
+
+11
+00:00:34,890 --> 00:00:36,410
+in our configuration file.
+
+12
+00:00:37,770 --> 00:00:43,280
+For example, I want to turn on the time features through.
+
+13
+00:00:44,180 --> 00:00:45,820
+Inside this configuration file,
+
+14
+00:00:45,820 --> 00:00:48,460
+there is all the comments and notes,
+
+15
+00:00:48,460 --> 00:00:53,180
+what each comment is and how to work with these comments.
+
+16
+00:00:53,180 --> 00:00:58,020
+So some of them are boolean, it's true or false.
+
+17
+00:00:58,020 --> 00:01:01,220
+Some of them is to add some information inside.
+
+18
+00:01:01,220 --> 00:01:04,740
+So just please read what's going on here.
+
+19
+00:01:04,740 --> 00:01:08,860
+For me right now, I just wanna turn on the time features
+
+20
+00:01:08,860 --> 00:01:11,220
+and the rest, I don't wanna change.
+
+21
+00:01:11,220 --> 00:01:15,420
+So the rest of the comments are turned off.
+
+22
+00:01:15,420 --> 00:01:17,900
+So as you can see the false here.
+
+23
+00:01:17,900 --> 00:01:21,220
+I don't wanna change the training and validation split.
+
+24
+00:01:21,220 --> 00:01:26,930
+And yeah, really I don't wanna make any changes
+
+25
+00:01:27,770 --> 00:01:31,570
+in the model configurations and hyper parameters.
+
+26
+00:01:31,570 --> 00:01:36,610
+Please don't edit this information
+
+27
+00:01:36,610 --> 00:01:40,570
+since it's leave it just default.
+
+28
+00:01:40,570 --> 00:01:43,370
+So what's going on here?
+
+29
+00:01:43,370 --> 00:01:48,500
+Here are some features that you can turn on and turn off.
+
+30
+00:01:49,980 --> 00:01:54,980
+These features are applied to the training and test.
+
+31
+00:01:54,980 --> 00:01:57,780
+Training and test dataset.
+
+32
+00:02:00,860 --> 00:02:03,460
+And then there is some block with hyper parameters
+
+33
+00:02:03,460 --> 00:02:04,460
+of the models tuning.
+
+34
+00:02:04,460 --> 00:02:08,780
+So for example, for the decision trees models,
+
+35
+00:02:08,780 --> 00:02:13,780
+you can increase or decrease the max depth
+
+36
+00:02:13,940 --> 00:02:16,700
+of the decision trees.
+
+37
+00:02:16,700 --> 00:02:21,700
+You can add or remove leaf size for LSTM and RNN models.
+
+38
+00:02:22,340 --> 00:02:25,380
+You can also tweak the parameters here.
+
+39
+00:02:25,380 --> 00:02:29,540
+But for me, for this example,
+
+40
+00:02:29,540 --> 00:02:31,780
+I just wanna turn on the time features
+
+41
+00:02:31,780 --> 00:02:35,780
+and see how my models are really working.
+
+42
+00:02:35,780 --> 00:02:40,740
+Okay, let's assume that I made some edits here
+
+43
+00:02:40,740 --> 00:02:44,100
+and I just open my text edit.
+
+44
+00:02:44,100 --> 00:02:48,580
+And yeah, so to track my experiment,
+
+45
+00:02:49,420 --> 00:02:58,420
+like experiment, turn on time feature.
+
+46
+00:02:58,660 --> 00:03:01,330
+Turn on time features.
+
+47
+00:03:01,330 --> 00:03:05,070
+Okay, and let me save this file,
+
+48
+00:03:05,070 --> 00:03:08,790
+control O plus enter control X.
+
+49
+00:03:08,790 --> 00:03:12,190
+Okay, the configuration file got saved
+
+50
+00:03:12,190 --> 00:03:15,470
+and read, let me go to my TMUX session,
+
+51
+00:03:15,470 --> 00:03:20,150
+TMUX attach terminal minus.
+
+52
+00:03:20,150 --> 00:03:22,990
+Okay, I'm inside my TMUX session right now.
+
+53
+00:03:24,340 --> 00:03:27,140
+Let's clear the terminal output.
+
+54
+00:03:27,140 --> 00:03:29,980
+And yeah, let's run the minor
+
+55
+00:03:29,980 --> 00:03:33,900
+with the same command as before.
+
+56
+00:03:43,220 --> 00:03:44,700
+It takes some time.
+
+57
+00:03:44,700 --> 00:03:46,500
+So it asks us, do I wanna use
+
+58
+00:03:46,500 --> 00:03:48,140
+the baseline moving average model?
+
+59
+00:03:48,140 --> 00:03:51,140
+But since we already used this model in the past,
+
+60
+00:03:51,140 --> 00:03:53,180
+I don't wanna use it, no.
+
+61
+00:03:55,040 --> 00:03:59,680
+Do I want to update the training dataset
+
+62
+00:03:59,680 --> 00:04:02,000
+that I will train my model on?
+
+63
+00:04:02,000 --> 00:04:04,040
+So as you can see here, my last update
+
+64
+00:04:04,040 --> 00:04:07,280
+was a couple of days back, I think.
+
+65
+00:04:07,280 --> 00:04:09,120
+And yeah, I will update my datasets
+
+66
+00:04:09,120 --> 00:04:11,000
+and I will take a pause here.
+
+67
+00:04:11,000 --> 00:04:15,120
+And also for your information,
+
+68
+00:04:15,120 --> 00:04:19,040
+the first, when you will first run all of this,
+
+69
+00:04:19,040 --> 00:04:21,240
+it will take two or three minutes.
+
+70
+00:04:21,240 --> 00:04:26,980
+Sorry, sorry, it will take two, three minutes
+
+71
+00:04:26,980 --> 00:04:30,940
+to fetch the training dataset information.
+
+72
+00:04:30,940 --> 00:04:34,300
+But yeah, it will be done automatically.
+
+73
+00:04:34,300 --> 00:04:36,220
+So you will need to wait some time.
+
+74
+00:04:36,220 --> 00:04:37,780
+Okay, let me take a pause here
+
+75
+00:04:37,780 --> 00:04:42,040
+and I want to update this training data, yes.
+
+76
+00:04:42,040 --> 00:04:46,300
+And my first model I wanna run is linear regression.
+
+77
+00:04:46,300 --> 00:04:49,100
+Okay, and it will fetch the latest data.
+
+78
+00:04:49,100 --> 00:04:50,300
+So I'll take a pause here
+
+79
+00:04:50,300 --> 00:04:54,890
+and I will come back when it's done.
+
+80
+00:04:54,890 --> 00:04:56,610
+Okay, it's done.
+
+81
+00:04:56,610 --> 00:04:59,210
+Let's enter the navigation mode in TMUX.
+
+82
+00:04:59,210 --> 00:05:08,560
+It's the command Control-B and this sign,
+
+83
+00:05:11,620 --> 00:05:16,020
+Control-B, yeah, so I entered the navigation mode,
+
+84
+00:05:16,020 --> 00:05:18,100
+as you can see on top right corner.
+
+85
+00:05:18,100 --> 00:05:22,810
+And let's scroll up, scroll up.
+
+86
+00:05:22,810 --> 00:05:26,530
+Okay, I can see that my dataset got fetched.
+
+87
+00:05:26,530 --> 00:05:28,690
+Here is the shape of the dataset.
+
+88
+00:05:28,690 --> 00:05:31,290
+Here is the timing, how long it took.
+
+89
+00:05:32,290 --> 00:05:36,640
+Here is the sum metrics of the linear regression model
+
+90
+00:05:36,640 --> 00:05:41,640
+on training dataset and the validation dataset, right?
+
+91
+00:05:41,720 --> 00:05:44,240
+As well as I can see the visual representation
+
+92
+00:05:44,240 --> 00:05:50,780
+of this model and how it performed
+
+93
+00:05:50,780 --> 00:05:52,940
+on the actual versus predicted.
+
+94
+00:05:52,940 --> 00:05:55,740
+The first graph is on the training dataset
+
+95
+00:05:55,740 --> 00:05:59,180
+and the second on the validation dataset.
+
+96
+00:05:59,180 --> 00:06:03,140
+And it asks us, do I really want to deploy this model
+
+97
+00:06:03,140 --> 00:06:06,580
+and let's exit the navigation mode.
+
+98
+00:06:06,580 --> 00:06:10,140
+I just need to press Q, okay?
+
+99
+00:06:10,140 --> 00:06:11,540
+And now I can make changes.
+
+100
+00:06:11,540 --> 00:06:13,140
+So I don't want to deploy this model
+
+101
+00:06:13,140 --> 00:06:15,420
+because the performance is really bad.
+
+102
+00:06:15,420 --> 00:06:20,510
+So I press no and I wanna train the cart model
+
+103
+00:06:21,230 --> 00:06:26,340
+with the same configuration settings.
+
+104
+00:06:26,340 --> 00:06:32,240
+So I press two and I wanna train the cart model.
+
+105
+00:06:32,480 --> 00:06:37,210
+Okay, I think it will be pretty fast right now.
+
+106
+00:06:37,210 --> 00:06:40,910
+Yeah, so let's enter navigation mode.
+
+107
+00:06:43,970 --> 00:06:46,890
+And let's check our metrics.
+
+108
+00:06:46,890 --> 00:06:50,650
+Yeah, as I can see here from the visual representation,
+
+109
+00:06:50,650 --> 00:06:54,090
+it should have better metrics.
+
+110
+00:06:54,090 --> 00:06:56,450
+Yeah, our R square is better
+
+111
+00:06:56,450 --> 00:06:58,890
+and our R square on validation set
+
+112
+00:06:58,890 --> 00:07:01,370
+is better than just random guess.
+
+113
+00:07:01,370 --> 00:07:05,050
+So it definitely better than our linear regression.
+
+114
+00:07:05,050 --> 00:07:08,930
+So yeah, I will put this in my experiment number one,
+
+115
+00:07:08,930 --> 00:07:14,250
+linear regression metrics cart.
+
+116
+00:07:20,000 --> 00:07:24,880
+Okay, and yeah, I just can copy it from here.
+
+117
+00:07:30,430 --> 00:07:31,510
+Okay, what's next?
+
+118
+00:07:31,510 --> 00:07:35,230
+And for example, let's assume I want to deploy this model
+
+119
+00:07:35,230 --> 00:07:37,110
+and I press yes.
+
+120
+00:07:37,110 --> 00:07:41,620
+So first of all, I need to quit the navigation mode,
+
+121
+00:07:41,620 --> 00:07:45,660
+press Q and press here yes.
+
+122
+00:07:45,660 --> 00:07:46,900
+And now on the fly,
+
+123
+00:07:46,900 --> 00:07:51,300
+everything will automatically your miner will deploy.
+
+124
+00:07:51,300 --> 00:07:55,180
+And after five max to max you can see success log here
+
+125
+00:07:55,180 --> 00:07:57,780
+that your cart model got deployed.
+
+126
+00:07:57,780 --> 00:08:01,780
+And the maximum after five to 10 minutes,
+
+127
+00:08:01,780 --> 00:08:03,860
+you will see success logs here
+
+128
+00:08:03,860 --> 00:08:08,860
+that miner is really using your developed model
+
+129
+00:08:09,180 --> 00:08:10,780
+to make predictions.
+
+130
+00:08:10,780 --> 00:08:12,300
+So let me take a pause here
+
+131
+00:08:12,300 --> 00:08:14,060
+and I will continue in the next video.
+

@@ -1,0 +1,160 @@
+1
+00:00:01,330 --> 00:00:08,230
+Ok, let's go further. Here it is, the amazing team. Our name is Beat Bridge and for the
+
+2
+00:00:08,230 --> 00:00:19,270
+last half a year we've been working and developing the decentralized solution and UOR has become
+
+3
+00:00:19,270 --> 00:00:27,540
+the part of this experiential learning. In general, our main mission is to formalize
+
+4
+00:00:27,540 --> 00:00:34,560
+innovation to make the hackathons to become part of the big conferences. Last week we
+
+5
+00:00:34,560 --> 00:00:42,300
+were on the AI Hartford Day with the hackathon and presentation. Also, we are working with
+
+6
+00:00:42,300 --> 00:00:48,540
+industry. For example, this summer we will work with one of the subnets in collaboration with
+
+7
+00:00:48,540 --> 00:00:56,220
+Yukon Athletics and we will try to provide for them advanced analytics from the cameras.
+
+8
+00:00:56,220 --> 00:01:03,370
+And yeah, I'm personally very honored and I'm so happy that I'm working with this type
+
+9
+00:01:03,370 --> 00:01:10,250
+of team. I love all the guys and all the work that you're seeing and the app that you
+
+10
+00:01:10,250 --> 00:01:21,100
+are using is the result of the big team effort. And yeah, we have the professor Dave who are
+
+11
+00:01:21,100 --> 00:01:28,110
+our, I wouldn't say that he's on our faculty advisor, he's doing much more than that for
+
+12
+00:01:28,110 --> 00:01:33,940
+us. And yeah, and I want to say the big thanks for professor Dave.
+
+13
+00:01:33,940 --> 00:01:40,460
+Ok, let's speak about the subnet workflow. It starts with validator and validator send
+
+14
+00:01:40,460 --> 00:01:47,870
+a request to a miner. It kind of sounds like, hey miner, can you please make a prediction
+
+15
+00:01:47,870 --> 00:01:56,270
+what the energy demand is going to be in six hours in the future. Then miners, here, it's
+
+16
+00:01:56,270 --> 00:02:06,260
+you basically. So you are your miner using your pre-built model, machine learning model
+
+17
+00:02:06,260 --> 00:02:11,980
+things here and make some prediction. For example, the energy demand is going to be
+
+18
+00:02:12,740 --> 00:02:22,250
+12,000 and it sends back to the validator. Then validator take this information and waits
+
+19
+00:02:22,250 --> 00:02:30,010
+for the six hours until the moment when the actual demand really pop up. So when all the
+
+20
+00:02:30,010 --> 00:02:35,690
+sensors from the government identify what was the real actual demand. And as you can
+
+21
+00:02:35,690 --> 00:02:43,820
+see here, when validator has the actual load, actual demand, it compares against predicted.
+
+22
+00:02:43,820 --> 00:02:51,340
+And on the specific formula, you can find it in our documentation, the reward is calculated.
+
+23
+00:02:51,340 --> 00:03:00,220
+So then this reward is sent to the blockchain itself. Blockchain receives this reward and
+
+24
+00:03:00,220 --> 00:03:09,540
+assign the tau coin rewards to the miner. So just for your information, I will show you
+
+25
+00:03:09,540 --> 00:03:20,390
+how the validator is really look. Yeah, I have the second monitor so I will take a look
+
+26
+00:03:20,390 --> 00:03:34,100
+on the left and let me show you how validator looks. So this machine is running and behind
+
+27
+00:03:34,100 --> 00:03:40,900
+the scenes as you can see it collecting your miners predictions. For example, for the miner
+
+28
+00:03:40,900 --> 00:03:48,500
+number 75, it made a prediction of this number and this prediction for 3 a.m. in the night.
+
+29
+00:03:49,780 --> 00:03:59,000
+And you can see here that validator sends a request for a prediction and here all miners
+
+30
+00:03:59,480 --> 00:04:05,960
+at the moment are kind of responding to the validator. Yeah, there are some bugs, but yeah,
+
+31
+00:04:05,960 --> 00:04:12,600
+all these, so your miners responded to validator. And let me show you how the
+
+32
+00:04:13,560 --> 00:04:22,360
+evaluation works. So yeah, you can see here there is incentive mechanism evaluation function.
+
+33
+00:04:23,590 --> 00:04:32,470
+So using specific formula, for example, for URD number 69, the prediction was this number,
+
+34
+00:04:32,470 --> 00:04:37,670
+while the actual load was a little bit different. Oh, but it's pretty close though.
+
+35
+00:04:38,870 --> 00:04:45,830
+And then the reward using specific function calculated. And as we can see here for the
+
+36
+00:04:45,830 --> 00:04:51,750
+second miner number 18, the prediction was much closer to the actual load. So
+
+37
+00:04:52,900 --> 00:05:04,940
+therefore the reward was bigger. And the little bit in the top, there is a forecasted weights
+
+38
+00:05:04,940 --> 00:05:12,140
+and scores for each UID in the matrix format that then sends to a blockchain.
+
+39
+00:05:12,700 --> 00:05:20,300
+Okay, so this is how validator looks behind the scenes. Okay, I will take a pause here
+
+40
+00:05:20,300 --> 00:05:31,820
+and I will continue in the next video.
+

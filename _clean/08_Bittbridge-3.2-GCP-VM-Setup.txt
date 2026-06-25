@@ -1,0 +1,11 @@
+Okay, so what happens in part two? We just need to copy paste all the commands from here We just need to update all the packages of this OS. So look at this is when That Mac OS notify you that you need to install some updates or Windows for example Let's just copy paste all these commands from here. It will take some time, but it will not be long Okay, I'll take a pause when it's done Okay, next command is Okay, we can type clear it will clear our terminal and then we need to Let's create the director make dear and let's name it.
+
+I don't know Okay, and we can put the LS This is mean least command and we can see that hey this folder is created it's very the same as when you create the folder on your Mac or in the windows and we can type CD and Type the name of this folder. So basically we go inside this folder. We just dive into it Yeah, we can see that we inside this folder now. We need to git clone our repository Git clone Okay, it's done.
+
+So what happened here? We cloned entire repository and If we put the LS least command, we can see that here is the beat bridge Beat bridge folder. Let's go into it Okay. So as you can see here on the path We're inside beat bridge folder and if we type down one more time LS mean least We can see that there is the entire structure of our project.
+
+Let me show you so as you can see The directories here beat the beat bridge contribute docs minor model neurons scripts and Everything is here. This is cool, right? Okay What our next step we need to create the virtual environment. We're inside our beat bridge folder and Let's create and when you can see a vent like this then it means that you created you activated your virtual environment Let's install all necessary dependencies using this command.
+
+It will take some time. So I'll take a break here And I will come back when it's done Yep, it's done. We can see that everything installed and we can verify using this command. Let's check it out.
+
+It is a live version Yeah, the latest version Let's check Yeah, be tense 4k, this is great news, okay I'll take a pause here and then the next video will create the wallets and filled up with tokens

@@ -1,0 +1,15 @@
+Yeah, before leaving you to experiment on your own, I just want to tell you the last things. So first thing first, let me deattach from tmux, control B plus D. Okay, I have deattached from the tmux session. And for example, I want to see my last card model actually was a predicted performance.
+
+I need to go to the, yeah, I need to go to the artifacts folder. You can see that I am under the artifacts directory. And for example, I know that I ran the card model five minutes ago or so. So in 26 April the 20th, I think, I think this is it.
+
+So one minute ago it was run. So it's the time here is in the UTS time zone. So this is why it's a little bit off, but yeah, I think this is the most recent model here. Let's go inside the folder.
+
+And here you can see the five main files and I can download all of them. So the model, card, job, leap, this is the dump of the model weights and you can download it and run locally. The metrics JSON here are stored the metrics of this particular run. The manifest JSON and config snapshot YAML is the config that you used and the manifest here is the data shape and the training data and the time of the training data, timestamp of training data used.
+
+But for example, I want to just upload the actual versus predicted. I need to know the path of this file, real path actual versus predicted. I know this path, I just copy it, press then download file here, paste it here and sometime it's not working for the first attempt. So let me restart this page using control R.
+
+Control R restart this page, okay, authorize. Cool. The list and go to the bitbridge folder, move to the artifacts folder, okay, and I want to see the actual is predicted for this particular run and one more time, real path predicted, go to this path, download file, paste it here, download, okay, and we can see that it's got downloading keys and progress and it will appear in your download folder. Okay, this is the first thing I want to show you.
+
+The second thing, yes, if something got stuck, please just press control C or close your terminal window here and open it one more time using your cool cloud platform window. And yeah, you can track on our cool website all the, yeah, here's some description of what's going on really here. And here our minor leaderboard, for example, on the latest prediction, the minor with UID tool made the best prediction here. Okay, let me go in the next video on how to track your performance really.
+
+Okay, I'll take a pause.

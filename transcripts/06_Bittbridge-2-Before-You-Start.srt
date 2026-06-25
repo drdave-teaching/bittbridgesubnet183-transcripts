@@ -1,0 +1,84 @@
+1
+00:00:02,830 --> 00:00:09,730
+For your setup, the guide is breakdown into the four main phases.
+
+2
+00:00:10,070 --> 00:00:16,860
+We can use these links to go and see. All the guides, they are
+
+3
+00:00:17,700 --> 00:00:19,700
+under the Docs and
+
+4
+00:00:19,740 --> 00:00:27,060
+Guide repo. Here is the four main phases that you need to accomplish to be able to run the miner on the
+
+5
+00:00:27,220 --> 00:00:31,300
+decentralized AI network. Let's start with the first one before you start.
+
+6
+00:00:31,860 --> 00:00:37,680
+Here is some key concept information of what is what really.
+
+7
+00:00:39,260 --> 00:00:41,260
+We assume that you
+
+8
+00:00:41,820 --> 00:00:48,340
+understand what is GitHub repository and as well as that you do have a Google Cloud Platform account with the
+
+9
+00:00:48,580 --> 00:00:55,900
+activated free trial of $300. The key concepts here. What is the virtual machine? The virtual machine itself
+
+10
+00:00:56,540 --> 00:01:00,860
+looks at this as the remote laptop or remote PC.
+
+11
+00:01:01,300 --> 00:01:07,070
+That is based specifically on the Google Cloud and it's run 24-7.
+
+12
+00:01:07,070 --> 00:01:12,990
+It doesn't really care if you switch it on or switch it off if you are using it or no.
+
+13
+00:01:13,470 --> 00:01:18,990
+You can set up scripts and work on that and it will work
+
+14
+00:01:21,650 --> 00:01:23,650
+without your interactions.
+
+15
+00:01:24,730 --> 00:01:31,170
+What is the virtual environment? The virtual environment itself is the specific environment for
+
+16
+00:01:31,530 --> 00:01:35,570
+your project or your Python scripts that is used
+
+17
+00:01:38,630 --> 00:01:44,280
+that is used specific dependencies inside only this virtual environment without
+
+18
+00:01:45,630 --> 00:01:51,390
+connection with the global environment of your laptop. Look at this as the
+
+19
+00:01:52,030 --> 00:01:55,350
+specific folder inside your project and
+
+20
+00:01:56,260 --> 00:02:03,180
+inside this folder we keep all the necessary libraries and variables inside this virtual environment.
+
+21
+00:02:04,180 --> 00:02:10,220
+What is minor and what is validator? It was discussed on the previous step. I'll pause here.
+

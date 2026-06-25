@@ -1,0 +1,25 @@
+Okay, yeah, this is our website. You can try and find the information about what's going on here. Here is the animation on the whole workflow. But I wanna show you how to use the leaderboard.
+
+So we can, we have three section of leaderboard. The leaderboard of the latest prediction. So each timestamp, each cycle, this one is updated. For example, we can see that the last prediction at 11.25, the minor with UID number two made the best prediction.
+
+So what means the best? The best is the closest one to the actual ground proof data. All right, we can filter it by UID or hotkeys. For example, I know that my UID is number four.
+
+Yeah, and this was my latest prediction. Pretty, pretty bad, right? Yeah, I can sort using all these columns. You can play with this one.
+
+The second chart is the 24-hour average minor performance model. And it's used cumulative reward, yeah, cumulative reward. And here, I was the best for the last day. For the last day, my minor was the best.
+
+But yeah, I played with features and hyperparameters and with the models. So I chose the best one. As you can see here, my minor UID number four was the best one. For example, I know that Professor Dave's minor is number 17 and his minor was not working for the last day.
+
+I know also that minor number two, it's one of our team members, and his minor was working pretty good for the last day. So it got the eighth place. And here are all your minors that are working right now. The next plot is the time series plot.
+
+So here we can see also we can filter by the hours, days, and we can see how the minors performs as well as how the actual energy demand performs. So we can see the spikes and we can see trends, pretty clear trends here. But let me check the last 24 hours and I wanna see my minor performance. So my minor is number four.
+
+And as we can see here, I used the cart model. So this is why the graph is pretty weird, but this is because it's the role-based decision trees. And let's check the minor number two. Yeah, and we can see that definitely minor number two using the moving average model because it's got some shift here.
+
+It's following the real trend, but with some shift, it doesn't catch really the spikes here, ups and downs. So it's just using the moving average. It's smooth here. For example, I know that my, and I wanna compare my minor versus the minor of one of my team members.
+
+And yeah, I can just filter it here and add, we can filter it using UID. Yeah, so this is mostly it. You can check this website. Here's our cool team.
+
+Yeah, but yeah, here is the workflow, how to work with the leaderboard. Also, when you restart the minor or you're doing it the first time, give some time to minor to appear here. Usually it will not take more than 30 minutes, but yeah, just keep this in mind that usually on 30 minutes, your minor will appear here. Yeah, this is mostly it.
+
+Thank you.

@@ -1,0 +1,336 @@
+1
+00:00:00,720 --> 00:00:07,480
+So the final step is actually run minor. I can just press next here and we are on this page
+
+2
+00:00:08,180 --> 00:00:10,180
+Yeah, we will do it using
+
+3
+00:00:10,740 --> 00:00:13,540
+tmux what is tmux is the
+
+4
+00:00:14,640 --> 00:00:17,160
+special special application on the
+
+5
+00:00:17,800 --> 00:00:22,420
+Linux that allow you to run your scripts on the background
+
+6
+00:00:23,060 --> 00:00:26,220
+Since for example if I will run some script
+
+7
+00:00:27,220 --> 00:00:30,460
+Just as it is here. For example, I don't know Python
+
+8
+00:00:32,860 --> 00:00:34,060
+script
+
+9
+00:00:34,060 --> 00:00:35,610
+by
+
+10
+00:00:35,610 --> 00:00:41,570
+Like I will press run it will run for a while. But when I close this window, it will stop
+
+11
+00:00:42,170 --> 00:00:49,690
+It will close as well and the script will stop to work. So this is why we use tmux tmux is allow us to
+
+12
+00:00:50,650 --> 00:00:54,670
+Make this script run on the background since so
+
+13
+00:00:55,670 --> 00:01:00,470
+Therefore if we close this window, it will still continue to work
+
+14
+00:01:02,030 --> 00:01:08,830
+As long as the virtual machine deployed on the Google Cloud platform, so I will just copy this command
+
+15
+00:01:09,350 --> 00:01:18,370
+Paste it here. Okay. Yeah, don't forget that you need to activate your virtual environment source
+
+16
+00:01:19,550 --> 00:01:26,160
+Okay, yeah, we can see that here is the dot
+
+17
+00:01:27,160 --> 00:01:31,920
+And
+
+18
+00:01:31,920 --> 00:01:37,640
+We can also update the moving average model if you want how to do it. We can just
+
+19
+00:01:38,360 --> 00:01:42,040
+put list go to CD neurons
+
+20
+00:01:43,520 --> 00:01:46,520
+List here and make nano
+
+21
+00:01:47,360 --> 00:01:49,600
+minor dot 5 and
+
+22
+00:01:50,860 --> 00:01:52,860
+We just can update
+
+23
+00:01:54,100 --> 00:01:57,580
+Number here. Let's update it from 12 to
+
+24
+00:01:58,580 --> 00:02:05,220
+24 so we will fetch moving average data for the last two hours since the one time
+
+25
+00:02:05,620 --> 00:02:09,580
+Frame is five minutes. Press it ctrl x to save
+
+26
+00:02:10,360 --> 00:02:11,360
+press
+
+27
+00:02:11,360 --> 00:02:13,290
+Yes, and
+
+28
+00:02:13,290 --> 00:02:18,190
+Press enter here. Okay, we updated it and our next step
+
+29
+00:02:18,730 --> 00:02:22,100
+Is just run this command. Let's try it
+
+30
+00:02:24,980 --> 00:02:30,000
+Here and I press let's copy paste this comment press enter
+
+31
+00:02:31,500 --> 00:02:34,740
+Okay, yeah, so if we updated it
+
+32
+00:02:35,460 --> 00:02:37,460
+we need to
+
+33
+00:02:37,460 --> 00:02:39,460
+Go back to the folder
+
+34
+00:02:40,560 --> 00:02:43,760
+Into the main folder where we can
+
+35
+00:02:44,520 --> 00:02:49,320
+Run this script really so how to go to get back. It's like CD
+
+36
+00:02:50,200 --> 00:02:57,600
+Dot-dot and we go one level above so as you can see here before we was at bit bridge
+
+37
+00:02:58,440 --> 00:03:00,070
+neurons
+
+38
+00:03:00,070 --> 00:03:01,910
+directory and now
+
+39
+00:03:01,910 --> 00:03:07,710
+We are at bit bridge directory itself. So we need to run this script in the bit bridge directory
+
+40
+00:03:07,710 --> 00:03:12,990
+I can use arrows arrow up arrow up arrow up and
+
+41
+00:03:13,510 --> 00:03:16,050
+Here is the command that I paste previously
+
+42
+00:03:16,840 --> 00:03:22,640
+They say common same comment that is it is here and let me press enter
+
+43
+00:03:23,870 --> 00:03:27,310
+Now should magic. Yeah now we can see logs
+
+44
+00:03:28,070 --> 00:03:31,670
+That the miner is trying to deploy
+
+45
+00:03:32,190 --> 00:03:41,560
+So as we can see here, there's some exon exon means server server got deployed on this IP and the address and
+
+46
+00:03:43,480 --> 00:03:50,960
+The miner running is the good sign. We can see that the miner got deployed on to the subnet number one eight three
+
+47
+00:03:51,520 --> 00:03:53,520
+Here is the minor
+
+48
+00:03:54,040 --> 00:03:56,120
+credentials
+
+49
+00:03:56,120 --> 00:03:58,120
+This is good news
+
+50
+00:03:58,450 --> 00:04:00,450
+Okay, I will take a pause here
+
+51
+00:04:01,160 --> 00:04:05,160
+But in several minutes usually from five to ten
+
+52
+00:04:06,160 --> 00:04:08,160
+You will see sorry
+
+53
+00:04:08,640 --> 00:04:11,600
+You will see the logs like this
+
+54
+00:04:12,240 --> 00:04:18,010
+You will see logs like this. You will see success log and you will see
+
+55
+00:04:18,650 --> 00:04:23,960
+How miner is making a prediction for the validator request really?
+
+56
+00:04:26,270 --> 00:04:28,430
+Okay, I will take a pause here
+
+57
+00:04:28,550 --> 00:04:34,510
+Yeah, I think this is it you have now you can just
+
+58
+00:04:36,030 --> 00:04:36,990
+Bravely
+
+59
+00:04:36,990 --> 00:04:44,250
+Close this window just like close it and it will work on the back end without your interaction
+
+60
+00:04:44,660 --> 00:04:48,140
+Yeah, if you can DHH from team accession
+
+61
+00:04:48,700 --> 00:04:55,060
+You can you need to use control B plus D. So I press control
+
+62
+00:04:55,540 --> 00:05:01,100
+B release and D. Okay. Now I'm just I can do whatever I want here
+
+63
+00:05:01,340 --> 00:05:03,780
+But we can see that using them
+
+64
+00:05:06,600 --> 00:05:10,770
+This command
+
+65
+00:05:11,610 --> 00:05:20,140
+Yeah, Teambox LS means least command that there is one minor window that is currently running and we can attach back to it
+
+66
+00:05:23,260 --> 00:05:25,260
+Aim attach
+
+67
+00:05:29,740 --> 00:05:31,420
+Yes, and
+
+68
+00:05:31,420 --> 00:05:39,580
+In five or ten minutes, you will see the logs with the successes and yeah, this is it for now
+
+69
+00:05:39,900 --> 00:05:41,900
+Thank you for watching and
+
+70
+00:05:42,850 --> 00:05:46,330
+Yeah, we can see the success logs here. Yeah
+
+71
+00:05:48,610 --> 00:05:51,570
+Don't be surprised with this error it's fine
+
+72
+00:05:52,290 --> 00:05:58,050
+Some logs just some logs so we can see success the minor was
+
+73
+00:05:58,930 --> 00:06:05,970
+Asked by a validator to make a predictions and using the moving average of the most recent energy data
+
+74
+00:06:06,250 --> 00:06:09,250
+It predicted that for the next five minutes
+
+75
+00:06:09,770 --> 00:06:14,660
+The energy demand going to be this one. How cool is that?
+
+76
+00:06:15,380 --> 00:06:17,380
+Now you can say
+
+77
+00:06:17,780 --> 00:06:25,420
+Everyone that you are successfully deployed prediction model on to that decentralized AI network
+
+78
+00:06:27,070 --> 00:06:30,990
+That's cool. So in this small assignment you actually
+
+79
+00:06:32,170 --> 00:06:40,850
+Use the Google Cloud Platform you actually use the decentralized AI network the blockchain itself and also predictive model
+
+80
+00:06:40,850 --> 00:06:43,390
+And as well as Linux, right?
+
+81
+00:06:44,110 --> 00:06:46,990
+And I think I I forgot something
+
+82
+00:06:47,590 --> 00:06:50,590
+Hundred percent, but you touched a lot of things
+
+83
+00:06:51,310 --> 00:06:55,760
+This is very cool. Okay. Thanks everybody for watching and
+
+84
+00:06:55,760 --> 00:06:58,520
+Enjoy the rest of your day
+
