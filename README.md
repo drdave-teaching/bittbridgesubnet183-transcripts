@@ -14,7 +14,7 @@ These transcripts pair with the official **BittBridge guide on GitHub**: **https
 
 - `transcripts/` — raw Whisper `.srt` (verbatim, with ASR quirks on jargon like "Bittensor")
 - `_clean/` — timestamps stripped, reflowed into paragraphs
-- `scripts/` — AI-polished narrative (jargon/grammar/capitalization corrected, readable prose)
+- `scripts/` — cleaned reading copy: domain jargon (BittBridge, Bittensor, GCP, GitHub, Colab…), capitalization, and "I" normalized. Still close to verbatim — a full narrative rewrite is a possible next pass.
 
 ## Video index (18) — entry IDs
 

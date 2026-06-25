@@ -1,0 +1,39 @@
+Okay, cool, so now is my favorite part right now. It's how to work and experiment with advanced machine learning models and how to deploy them on the minor side. So first and first, please read these disclaimers here. It's not a lot of text for you to read, but it's important for your understanding in the future steps and it will save you a lot of time.
+
+So let me show you. First and first, we need to make some changes in our configuration file. For example, I want to turn on the time features through. Inside this configuration file, there is all the comments and notes, what each comment is and how to work with these comments.
+
+So some of them are boolean, it's true or false. Some of them is to add some information inside. So just please read what's going on here. For me right now, I just wanna turn on the time features and the rest, I don't wanna change.
+
+So the rest of the comments are turned off. So as you can see the false here. I don't wanna change the training and validation split. And yeah, really I don't wanna make any changes in the model configurations and hyper parameters.
+
+Please don't edit this information since it's leave it just default. So what's going on here? Here are some features that you can turn on and turn off. These features are applied to the training and test.
+
+Training and test dataset. And then there is some block with hyper parameters of the models tuning. So for example, for the decision trees models, you can increase or decrease the max depth of the decision trees. You can add or remove leaf size for LSTM and RNN models.
+
+You can also tweak the parameters here. But for me, for this example, I just wanna turn on the time features and see how my models are really working. Okay, let's assume that I made some edits here and I just open my text edit. And yeah, so to track my experiment, like experiment, turn on time feature.
+
+Turn on time features. Okay, and let me save this file, control O plus enter control X. Okay, the configuration file got saved and read, let me go to my TMUX session, TMUX attach terminal minus. Okay, I'm inside my TMUX session right now.
+
+Let's clear the terminal output. And yeah, let's run the minor with the same command as before. It takes some time. So it asks us, do I wanna use the baseline moving average model?
+
+But since we already used this model in the past, I don't wanna use it, no. Do I want to update the training dataset that I will train my model on? So as you can see here, my last update was a couple of days back, I think. And yeah, I will update my datasets and I will take a pause here.
+
+And also for your information, the first, when you will first run all of this, it will take two or three minutes. Sorry, sorry, it will take two, three minutes to fetch the training dataset information. But yeah, it will be done automatically. So you will need to wait some time.
+
+Okay, let me take a pause here and I want to update this training data, yes. And my first model I wanna run is linear regression. Okay, and it will fetch the latest data. So I'll take a pause here and I will come back when it's done.
+
+Okay, it's done. Let's enter the navigation mode in TMUX. It's the command Control-B and this sign, Control-B, yeah, so I entered the navigation mode, as you can see on top right corner. And let's scroll up, scroll up.
+
+Okay, I can see that my dataset got fetched. Here is the shape of the dataset. Here is the timing, how long it took. Here is the sum metrics of the linear regression model on training dataset and the validation dataset, right?
+
+As well as I can see the visual representation of this model and how it performed on the actual versus predicted. The first graph is on the training dataset and the second on the validation dataset. And it asks us, do I really want to deploy this model and let's exit the navigation mode. I just need to press Q, okay?
+
+And now I can make changes. So I don't want to deploy this model because the performance is really bad. So I press no and I wanna train the CART model with the same configuration settings. So I press two and I wanna train the CART model.
+
+Okay, I think it will be pretty fast right now. Yeah, so let's enter navigation mode. And let's check our metrics. Yeah, as I can see here from the visual representation, it should have better metrics.
+
+Yeah, our R square is better and our R square on validation set is better than just random guess. So it definitely better than our linear regression. So yeah, I will put this in my experiment number one, linear regression metrics CART. Okay, and yeah, I just can copy it from here.
+
+Okay, what's next? And for example, let's assume I want to deploy this model and I press yes. So first of all, I need to quit the navigation mode, press Q and press here yes. And now on the fly, everything will automatically your miner will deploy.
+
+And after five max to max you can see success log here that your CART model got deployed. And the maximum after five to 10 minutes, you will see success logs here that miner is really using your developed model to make predictions. So let me take a pause here and I will continue in the next video.

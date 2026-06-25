@@ -1,0 +1,19 @@
+Ok, let's go further. Here it is, the amazing team. Our name is BittBridge and for the last half a year we've been working and developing the decentralized solution and UOR has become the part of this experiential learning. In general, our main mission is to formalize innovation to make the hackathons to become part of the big conferences.
+
+Last week we were on the AI Hartford Day with the hackathon and presentation. Also, we are working with industry. For example, this summer we will work with one of the subnets in collaboration with Yukon Athletics and we will try to provide for them advanced analytics from the cameras. And yeah, I'm personally very honored and I'm so happy that I'm working with this type of team.
+
+I love all the guys and all the work that you're seeing and the app that you are using is the result of the big team effort. And yeah, we have the professor Dave who are our, I wouldn't say that he's on our faculty advisor, he's doing much more than that for us. And yeah, and I want to say the big thanks for professor Dave. Ok, let's speak about the subnet workflow.
+
+It starts with validator and validator send a request to a miner. It kind of sounds like, hey miner, can you please make a prediction what the energy demand is going to be in six hours in the future. Then miners, here, it's you basically. So you are your miner using your pre-built model, machine learning model things here and make some prediction.
+
+For example, the energy demand is going to be 12,000 and it sends back to the validator. Then validator take this information and waits for the six hours until the moment when the actual demand really pop up. So when all the sensors from the government identify what was the real actual demand. And as you can see here, when validator has the actual load, actual demand, it compares against predicted.
+
+And on the specific formula, you can find it in our documentation, the reward is calculated. So then this reward is sent to the blockchain itself. Blockchain receives this reward and assign the tau coin rewards to the miner. So just for your information, I will show you how the validator is really look.
+
+Yeah, I have the second monitor so I will take a look on the left and let me show you how validator looks. So this machine is running and behind the scenes as you can see it collecting your miners predictions. For example, for the miner number 75, it made a prediction of this number and this prediction for 3 a.m. In the night.
+
+And you can see here that validator sends a request for a prediction and here all miners at the moment are kind of responding to the validator. Yeah, there are some bugs, but yeah, all these, so your miners responded to validator. And let me show you how the evaluation works. So yeah, you can see here there is incentive mechanism evaluation function.
+
+So using specific formula, for example, for URD number 69, the prediction was this number, while the actual load was a little bit different. Oh, but it's pretty close though. And then the reward using specific function calculated. And as we can see here for the second miner number 18, the prediction was much closer to the actual load.
+
+So therefore the reward was bigger. And the little bit in the top, there is a forecasted weights and scores for each UID in the matrix format that then sends to a blockchain. Okay, so this is how validator looks behind the scenes. Okay, I will take a pause here and I will continue in the next video.
