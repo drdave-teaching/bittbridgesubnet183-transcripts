@@ -1,29 +1,9 @@
-Okay, cool. So, as we can see here from the logs, I deployed my miner at 11.13 and it got deployed with card model. And at 11.15, it made a prediction for the next five minutes using card model, right? Yeah.
+Okay, cool. As we can see from the logs, I deployed my miner at 11:13 and it deployed with the CART model. At 11:15 it made a prediction for the next five minutes using the CART model.
 
-So, if I want to experiment with the configuration features and hyperparameters, I don't necessarily need to stop the tmux at first. I can keep my miner working and just detach from the session, control B plus D, detach from session, and I can run the miner here. Let me make some changes in the config file. Nano, model parameters, YAML.
+So, if I want to experiment with the configuration features and hyperparameters, I don't necessarily need to stop tmux first. I can keep my miner working and just detach from the session — Ctrl+B, then "D" — and run experiments here. Let me make some changes in the config file: "nano model_params.yaml". For example, I want to include a humidity feature, so I just add it here. Now my model will use, in the training, validation, and test datasets, not only the time features but also the temperature feature and the relative-humidity feature. I've made those changes. I also want to increase the depth of the CART model — instead of six, I'll set it to seven. Ctrl+O to save, Enter, Ctrl+X.
 
-Okay. For example, I want to include also a humidity feature. So, I need just to put it here. And now, my model will use in the training and validation and test datasets.
+If I want to experiment and see how my model performs without necessarily stopping the miner, I can run this command here to run the model. I don't want to run the baseline model, and I don't want to update my training datasets since they're recent — ten minutes ago — so no. I want to see how my CART model performs with these new changes. Just for reference, previously these were my metrics. Let's check. With only this small change — let me track it as experiment two: "add temp + humidity, and increase CART depth to seven." We can see that with only this small change, my metrics are much, much better. Even if the validation-set R-squared isn't dramatically bigger than the previous experiment, there's definitely an improvement, and the model improved much more on the training set. I'll track these metrics here.
 
-And not only the time features, but as well as temperature feature and relative humidity feature. Okay. I've done these changes here. And also, I want to add the depth to the card model.
+Now I can restart my miner — but I can't do it here, I need tmux. So when it asks whether I want to deploy this model, I choose "no" and exit the miner. I go to tmux to restart it: "tmux attach" to the "miner" terminal. Here I just rerun the command, and it will automatically — I don't want to use the baseline, don't update data, no — I want to run CART. It will retrain one more time, but with the new features and the new hyperparameters. If I want to deploy it, I just press "Y", and it deploys and the miner runs.
 
-Instead of six, I will put it seven. Control O to save, enter, control X. And if I want to experiment and see how my model's performed without necessarily stopping the miner, I can just run this command here. It will run the miner.
-
-I don't want to run the baseline model. I don't want to update my training datasets since it's pretty recent, 10 minutes ago. No. And I want to see how my card model will perform with these new changes.
-
-And just for reference, previously, this was my metrics. Okay. Let's check. Let's check.
-
-Okay. Cool. So, with only this small change, so let's track my experiment two. Experiment two.
-
-Add temp plus humidity. And also, add depth card to seven. Okay. And we can see with only this miner and a very small change, my results and metrics are much, much better.
-
-So, even if the validation set is not R-square is not, is not, sorry, much bigger than our previous experiment. But since we can see that there is definitely an improvement and training set improved, and the model on the training set improved much better. So, I just, sorry, I will track this metrics here. And I can restart my miner.
-
-I can't do it here since I need tmux to do it. So, do I want to deploy this model? No. I choose exit miner here.
-
-I exit the miner. And I want to go to tmux and restart my miner. Tmux attach tminer. Okay.
-
-And here, I just need to rerun the command and it will automatically use the, so, run this command here. I don't want to use baseline. Update data. No.
-
-I want to run card. It will retain it one more time, but with the new features and with the new hyper parameters. So, and yeah, if I want to deploy it, I just need to press Y and it will be deployed and miner will run. Okay.
-
-I will take a pause here and continue next video.
+I'll pause here and continue in the next video.

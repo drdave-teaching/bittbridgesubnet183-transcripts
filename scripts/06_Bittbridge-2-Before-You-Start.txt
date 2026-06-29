@@ -1,9 +1,11 @@
-For your setup, the guide is breakdown into the four main phases. We can use these links to go and see. All the guides, they are under the Docs and Guide repo. Here is the four main phases that you need to accomplish to be able to run the miner on the decentralized AI network.
+For your setup, the guide is broken down into four main phases. You can use these links to go and see all the guides — they're under the docs-and-guides repo. These are the four main phases you need to complete to be able to run the miner on the decentralized-AI network.
 
-Let's start with the first one before you start. Here is some key concept information of what is what really. We assume that you understand what is GitHub repository and as well as that you do have a Google Cloud Platform account with the activated free trial of $300. The key concepts here.
+Let's start with the first one: "Before you start." Here's some key conceptual information about what's what. We assume you understand what a GitHub repository is, and that you have a Google Cloud Platform account with the activated $300 free trial.
 
-What is the virtual machine? The virtual machine itself looks at this as the remote laptop or remote PC. That is based specifically on the Google Cloud and it's run 24-7. It doesn't really care if you switch it on or switch it off if you are using it or no.
+The key concepts here. What is a virtual machine? Think of it as a remote laptop or remote PC, hosted specifically on Google Cloud, that runs 24/7. It doesn't care whether you switch it on or off, or whether you're using it — you can set up scripts and it will keep working without your interaction.
 
-You can set up scripts and work on that and it will work without your interactions. What is the virtual environment? The virtual environment itself is the specific environment for your project or your Python scripts that is used that is used specific dependencies inside only this virtual environment without connection with the global environment of your laptop. Look at this as the specific folder inside your project and inside this folder we keep all the necessary libraries and variables inside this virtual environment.
+What is a virtual environment? It's a self-contained environment for your project or your Python scripts, with its own dependencies, isolated from the global environment on your laptop. Think of it as a specific folder inside your project where we keep all the necessary libraries and variables, just for this environment.
 
-What is minor and what is validator? It was discussed on the previous step. I'll pause here.
+What is a miner, and what is a validator? We discussed that in the previous step.
+
+I'll pause here.
